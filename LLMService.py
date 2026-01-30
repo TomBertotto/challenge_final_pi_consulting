@@ -1,11 +1,12 @@
 import cohere
-
-API_KEY = ""
-
+import os
+from dotenv import load_dotenv
 
 class LLMService:
     def __init__(self):
-        self.client = cohere.Client(API_KEY)
+        load_dotenv()
+        api_key = os.getenv("COHERE_API_KEY")
+        self.cohere_client = cohere.Client(api_key)
     
     def detect_domain(self, text: str) -> str:
         prompt_domain = """
@@ -15,10 +16,13 @@ class LLMService:
             Los términos y condiciones son:\n
             {text[:4000]}
         """
-
-        response = self.client.generate(
-            model="",
-            prompt=prompt_domain,
-            temperature=0
-        )
-        return response.generations[0].text.strip().lower()
+        try:
+            response = self.cohere_client.chat(
+                model="command-r-plus-08-2024",
+                message=prompt_domain,
+                temperature=0
+            )
+            return response.text.strip()
+        except Exception as exc:
+            print("LLM ERROR: ", type(exc).__name__)
+            raise

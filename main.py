@@ -12,6 +12,10 @@ handler = TermsHandler()
 embedding_service = EmbeddingService()
 llm_service = LLMService()
 
+
+if __name__ == '__main__':
+    uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True)
+
 @app.post("/upload")
 def upload_terms(source, terms: str):
     if not source or not terms:
@@ -21,6 +25,10 @@ def upload_terms(source, terms: str):
     terms_document = handler.create_terms(source, terms, domain)
 
     embedding_service.process_document(terms_document)
+    return {
+        "message": "OK",
+        "new_terms_added": source,
+    }
 
 @app.post("/ask")
 def ask(question: str):
