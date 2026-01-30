@@ -1,0 +1,7 @@
+chromadb
+cohere
+langchain_text_splitters
+uvicorn
+fastapi
+python-dotenv
+uuid
