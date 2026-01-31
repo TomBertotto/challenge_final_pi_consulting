@@ -20,8 +20,8 @@ class EmbeddingService:
             model_name="embed-multilingual-v3.0"
         )
         
-        self.db_client = chromadb.Client(
-            Settings(persist_directory="chroma_db")
+        self.db_client = chromadb.PersistentClient(
+            path="chroma_db"
         )
 
         self.collection = self.db_client.get_or_create_collection(name=collection_name, embedding_function=cohere_ef)
@@ -41,6 +41,7 @@ class EmbeddingService:
         metadatas = []    
 
         for i, chunk in enumerate(chunks):
+            print(chunk)
             ids.append(f"{terms_document.terms_id}_{i}")#TODO ver si conviene dejarle el idx
             documents.append(chunk)
             metadatas.append({
@@ -51,3 +52,6 @@ class EmbeddingService:
             })
         
         self.collection.add(ids=ids, documents=documents, metadatas=metadatas)
+
+    def get_count(self):
+        return self.collection.count()

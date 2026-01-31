@@ -65,3 +65,10 @@ def ask(question: str):
         "sources": chunks
     }
 
+@app.get("/count")
+def count():
+    cant = embedding_service.get_count()
+    return {
+        "message": "db contador",
+        "cant": cant,
+    }
