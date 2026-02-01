@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=""UTF-8" />
+        <title>Test Terminos y Condiciones</title>
+    </head>
+
+    <body>
+        
+        <input id="question" type="text" placeholder="Ingresar pregunta..." />
+        <button onclick="send()">Enviar</button>
+
+        <pre id="result"></pre>
+
+        <script>
+            async function send() {
+                const question = document.getElementById("question").value;
+
+                const response = await fetch("http://localhost:8000/ask", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type" : "application/json"
+                    },
+                    body: JSON.stringify({ question })
+                });
+
+                const data = await response.json();
+                document.getElementById("result").textContent = JSON.stringify(data, null, 2);
+            }
+        </script>
+    </body>
+</html>

@@ -6,3 +6,4 @@ fastapi
 python-dotenv
 uuid
 pillow
+pydantic

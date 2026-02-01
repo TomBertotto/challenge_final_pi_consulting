@@ -5,20 +5,43 @@ import uvicorn
 from EmbeddingService import EmbeddingService
 from LLMService import LLMService
 import os
-from datetime import datetime
-
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 app = FastAPI(title = "Challenge Final")
 handler = TermsHandler()
 embedding_service = EmbeddingService()
 llm_service = LLMService()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["POST"], #TODO: ver get
+    allow_headers=["*"],
+)
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+class AskRequest(BaseModel): #TODO: refactor
+    question: str
+
 ENTIDAD_UNICA = "entidad_unica"
 ENTIDAD_MULTIPLE = "entidad_multiple"
 ENTIDAD_NO_ESPECIFICA = "no_especifica"
 
+
+
+
+
 if __name__ == '__main__':
     uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True)
+
+
+
+@app.get("/")
+def mostrar_index():
+    return FileResponse("static/index.html")
 
 @app.post("/upload")
 def upload_terms(source, terms: str):
@@ -35,7 +58,8 @@ def upload_terms(source, terms: str):
     }
 
 @app.post("/ask")
-def ask(question: str):
+def ask(req: AskRequest):
+    question = req.question
     if not question.strip():
         raise HTTPException(status_code=400, detail="No se realizó una pregunta")
 
@@ -63,6 +87,7 @@ def ask(question: str):
             "sources": []
         }
 
+    seleccionados = []
 
     if multi_entidad:
         seleccionados = embedding_service.select_distinct_best_chunks(results, max_entities=3)
@@ -71,8 +96,20 @@ def ask(question: str):
     else:
         chunks = results["documents"][0]
         sources = [meta.get("source") for meta in results["metadatas"][0]]
+        
+        for ch, src in zip(chunks, sources):
+            seleccionados.append({
+                "source": src,
+                "chunk": ch
+            })
+
     
-    contexto = "\n\n".join(chunks)
+    contexto = "\n\n".join(
+        f"==== PRODUCT: {c['source']} ==== \n {c['chunk']}\n"
+        for c in seleccionados
+    )
+
+    
     answer = llm_service.answer_question(question, contexto)
     return {
         "question": question,
