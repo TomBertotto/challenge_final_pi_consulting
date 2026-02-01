@@ -7,11 +7,15 @@ from LLMService import LLMService
 import os
 from datetime import datetime
 
+
 app = FastAPI(title = "Challenge Final")
 handler = TermsHandler()
 embedding_service = EmbeddingService()
 llm_service = LLMService()
 
+ENTIDAD_UNICA = "entidad_unica"
+ENTIDAD_MULTIPLE = "entidad_multiple"
+ENTIDAD_NO_ESPECIFICA = "no_especifica"
 
 if __name__ == '__main__':
     uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True)
@@ -36,33 +40,47 @@ def ask(question: str):
         raise HTTPException(status_code=400, detail="No se realizó una pregunta")
 
     question_domain = llm_service.detect_domain(question)
+    entities = llm_service.detect_entities(question)
+
+    multi_entidad = entities in (ENTIDAD_MULTIPLE, ENTIDAD_NO_ESPECIFICA)
 
     results = embedding_service.collection.query(
         query_texts=[question],
-        where={"domain": question_domain},
-        n_results = 5
+        where={"domain": question_domain} if question_domain else None,
+        n_results = 30 if multi_entidad else 5
     )
 
     if not results["documents"] or not results["documents"][0]:
         results = embedding_service.collection.query(
             query_texts = [question],
-            n_results=5
+            n_results=30 if multi_entidad else 5
         )
 
-    chunks = results["documents"][0]
 
-    if not chunks:
+    if not results["documents"] or not results["documents"][0]:
         return {
-            "answer" : "No hay información relevante para contestar la pregunta",
-            "fuentes" : []
+            "answer": "No hay información relevante para contestar la pregunta",
+            "sources": []
         }
 
-    answer = llm_service.answer_question(question, chunks)
+
+    if multi_entidad:
+        seleccionados = embedding_service.select_distinct_best_chunks(results, max_entities=3)
+        chunks = [c["chunk"] for c in seleccionados]
+        sources = [c["source"] for c in seleccionados]
+    else:
+        chunks = results["documents"][0]
+        sources = [meta.get("source") for meta in results["metadatas"][0]]
+    
+    contexto = "\n\n".join(chunks)
+    answer = llm_service.answer_question(question, contexto)
     return {
         "question": question,
         "domain": question_domain,
+        "entities": entities,
         "answer": answer,
-        "sources": chunks
+        "sources": sources,
+        "context:": contexto
     }
 
 @app.get("/count")

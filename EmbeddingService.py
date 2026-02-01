@@ -41,7 +41,6 @@ class EmbeddingService:
         metadatas = []    
 
         for i, chunk in enumerate(chunks):
-            print(chunk)
             ids.append(f"{terms_document.terms_id}_{i}")#TODO ver si conviene dejarle el idx
             documents.append(chunk)
             metadatas.append({
@@ -55,3 +54,32 @@ class EmbeddingService:
 
     def get_count(self):
         return self.collection.count()
+    
+    def select_distinct_best_chunks(self, results, max_entities = 3):
+        selected = []
+        terms_id_usados = set()
+
+        documents = results["documents"][0]
+        metadatas = results["metadatas"][0]
+        distances = results["distances"][0]
+
+        for doc, meta, dist in zip(documents, metadatas, distances):
+            tid = meta["terms_id"]
+
+            if tid in terms_id_usados:
+                continue
+
+            selected.append({
+                "chunk": doc,
+                "terms_id": tid,
+                "distance": dist,
+                "source": meta.get("source"),
+                "domain": meta.get("domain")
+            })
+
+            terms_id_usados.add(tid)
+
+            if len(selected) == max_entities:
+                break
+        
+        return selected

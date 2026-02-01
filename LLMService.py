@@ -48,7 +48,7 @@ class LLMService:
                 - No usar emojis\n
                 - Contestar siempre en español independientemente de si la pregunta y el contexto están en otro idioma\n
                 - Si la pregunta es sensible u ofensiva responder: "No puedo contestar esa pregunta"\n
-                - La respuesta debe siempre centrada usando los segmentos de información provistos
+                - La respuesta debe siempre centrada usando únicamente los segmentos de información provistos y nunca otra información
         """
 
         respuesta = self.cohere_client.chat(
@@ -60,5 +60,33 @@ class LLMService:
             ]
         )
         return respuesta.message.content[0].text
-    
+
+    def detect_entities(self, question) -> str:
+        prompt_entities = """
+            *)Sos un agente que analiza preguntas y determina si una pregunta determinada está solicitando una respuesta que involucre una sola entidad o muchas.\n\n
+            - Si la pregunta pide resultados de una sola cosa entonces se trata de una entidad unica
+            - Si la pregunta pide diferentes ejemplos o resultados sobre un tópico en particular entonces se trata de entidades múltiples
+            - Si no especifica ninguna entonces no se determina
+            *)El formato de tu respuesta debe ser una palabra a elección de las siguientes que mejor se ajuste a la cantidad de entidades (no incluir puntuación):\n
+            - entidad_unica
+            - entidad_multiple
+            - no_especifica
+        """
+        prompt_question = f"""
+            La pregunta es:\n
+            {question}
+        """
+        try:
+            response = self.cohere_client.chat(
+                model="command-r-plus-08-2024",
+                messages=[
+                    {"role": "system", "content" : prompt_entities},
+                    {"role": "user", "content": prompt_question}
+                    ],
+                temperature=0
+            )
+            return response.message.content[0].text.lower()
+        except Exception as exc:
+            print("LLM ERROR: ", type(exc).__name__)
+            raise
 
