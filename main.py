@@ -26,6 +26,10 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 class AskRequest(BaseModel): #TODO: refactor
     question: str
 
+class UploadRequest(BaseModel):
+    source: str
+    terms: str
+
 ENTIDAD_UNICA = "entidad_unica"
 ENTIDAD_MULTIPLE = "entidad_multiple"
 ENTIDAD_NO_ESPECIFICA = "no_especifica"
@@ -44,7 +48,9 @@ def mostrar_index():
     return FileResponse("static/index.html")
 
 @app.post("/upload")
-def upload_terms(source, terms: str):
+def upload_terms(req: UploadRequest):
+    source = req.source
+    terms = req.terms
     if not source or not terms:
         raise HTTPException(status_code=400, detail="Se necesitan los términos y condiciones y a quién pertenece")
     
