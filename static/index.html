@@ -138,7 +138,8 @@
                 });
 
                 const data = await response.json();
-                resultBox.textContent = JSON.stringify(data, null, 2);
+                resultBox.textContent = data.answer
+                /*resultBox.textContent = JSON.stringify(data, null, 2);*/
             } catch (err) {
                 resultBox.textContent = "Error al consultar el servidor.";
             }
@@ -161,7 +162,8 @@
                 });
 
                 const data = await response.json();
-                uploadBox.textContent = JSON.stringify(data, null, 2);
+                uploadBox.textContent = data.message
+                /*uploadBox.textContent = JSON.stringify(data, null, 2);*/
             } catch (err) {
                 uploadBox.textContent = "Error al cargar los términos.";
             }

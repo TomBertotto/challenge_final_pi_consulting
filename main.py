@@ -9,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
+from RequestClasses import AskRequest, UploadRequest
 
 app = FastAPI(title = "Challenge Final")
 handler = TermsHandler()
@@ -18,17 +19,11 @@ llm_service = LLMService()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["POST"], #TODO: ver get
+    allow_methods=["POST"],
     allow_headers=["*"],
 )
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-class AskRequest(BaseModel): #TODO: refactor
-    question: str
-
-class UploadRequest(BaseModel):
-    source: str
-    terms: str
 
 ENTIDAD_UNICA = "entidad_unica"
 ENTIDAD_MULTIPLE = "entidad_multiple"
@@ -59,7 +54,7 @@ def upload_terms(req: UploadRequest):
 
     embedding_service.process_document(terms_document)
     return {
-        "message": "OK",
+        "message": "Documento cargado",
         "new_terms_added": source,
     }
 
@@ -126,10 +121,3 @@ def ask(req: AskRequest):
         "context:": contexto
     }
 
-@app.get("/count")
-def count():
-    cant = embedding_service.get_count()
-    return {
-        "message": "db contador",
-        "cant": cant,
-    }

@@ -52,8 +52,6 @@ class EmbeddingService:
         
         self.collection.add(ids=ids, documents=documents, metadatas=metadatas)
 
-    def get_count(self):
-        return self.collection.count()
     
     def select_distinct_best_chunks(self, results, max_entities = 3):
         selected = []
