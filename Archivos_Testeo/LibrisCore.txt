@@ -1,0 +1,64 @@
+LibrisCore Book Synopsis API: Standard License
+Version 2.1 | Effective February 2, 2026
+
+1. The "Human-Centric" Usage Mandate
+The LibrisCore API (the "Service") provides proprietary, human-authored book synopses, thematic tags, and metadata. Unlike general-purpose data feeds, the Service is licensed exclusively for display to human end-users.
+
+By accessing this API, you agree that the content is provided solely to enhance the reading experience of humans and not to serve as a training set, corpus, or input for any automated reasoning system, machine learning model, or artificial intelligence.
+
+2. Express Prohibition of AI and LLM Activity
+This section constitutes a "negative covenant" that is central to this Agreement. Any violation of this Section 2 results in an automatic and non-curable termination of your access.
+
+You shall not, and shall not permit any third party to:
+
+Model Training: Use the synopses or metadata to train, fine-tune, or "ground" any Large Language Model (LLM), Generative AI, or neural network.
+
+Vectorization: Convert LibrisCore content into vector embeddings for use in a Vector Database or RAG (Retrieval-Augmented Generation) pipeline.
+
+Synthetic Content Generation: Use the API to generate "new" summaries, reviews, or alternate endings via AI prompts.
+
+Semantic Distillation: Use AI to "rephrase" our synopses to bypass plagiarism detection or to create "summaries of summaries."
+
+Classification Training: Use our thematic tags to train automated genre-classification algorithms.
+
+Legal Declaration: The content provided is the "Work of Authorship" protected under 17 U.S.C. § 102. Using this data for AI training without an "Enterprise AI Training License" (available separately) is a willful infringement of copyright.
+
+3. Permitted "General Use" (Human-Facing)
+For the sake of clarity, the following uses are permitted, provided they remain free of AI-processing:
+
+Direct Display: Showing a book summary on a retail website, library catalog, or personal blog.
+
+Standard Search: Indexing the text via traditional keyword-based search engines (e.g., Elasticsearch, Algolia) that do not utilize generative rewriting.
+
+Human Curation: Allowing human editors to read the synopses to decide which books to feature in a "Staff Picks" section.
+
+4. Technical Restrictions and Anti-Scraping
+To enforce the No-AI policy, LibrisCore employs "Data Fingerprinting."
+
+Watermarking: Our synopses may contain "zero-width" characters or specific linguistic "salt" (unique phrasing variations) that allow us to identify our data if it appears in an LLM’s output or a third-party dataset.
+
+Rate Limits: Access is limited to 50 requests per minute. Any pattern of "bulk harvesting" (e.g., requesting 10,000 synopses in rapid succession) will be flagged as an attempt to build a training corpus and will result in an immediate IP ban.
+
+Header Requirements: All requests must include a valid User-Agent and a Purpose-Declaration header.
+
+5. Intellectual Property and Attribution
+Ownership: LibrisCore and its licensors retain all rights to the synopses. This API provides a license, not a sale of data.
+
+Attribution: You must display the text "Synopses provided by LibrisCore" adjacent to any data fetched from the API.
+
+No Derivative Works: You may not modify, translate (except via approved human translators), or create derivative works of the synopses.
+
+6. Disclaimer of Accuracy
+While we strive for excellence, the synopses are provided "AS IS."
+
+Subjectivity: Synopses reflect the creative interpretation of our writers and may not capture every plot point.
+
+No Warranty: We do not warrant that the data is error-free or that the API will be available 100% of the time.
+
+7. Indemnification for AI-Related Breach
+In addition to standard indemnification, you agree to hold LibrisCore harmless from any costs, legal fees, or damages arising from your use of the data in an AI system.
+
+Liquidated Damages: Because the damage to a creative corpus from "AI contamination" is difficult to quantify, you agree that any use of the data for AI training shall incur liquidated damages of $0.50 per word per model iteration.
+
+8. Termination of Service
+We reserve the right to audit your application’s architecture to ensure no LLM integration is present. If you refuse an audit or if "LibrisCore Fingerprinted Data" is discovered in your AI's weights, this license is void ab initio.

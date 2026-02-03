@@ -1,0 +1,66 @@
+OpenFin Universal Data License (No-AI Provision)
+Version 6.1 | Effective Date: February 3, 2026
+
+1. Purpose and Philosophy
+The OpenFin Data Feed (the "Feed") is provided by the OpenFin Consortium with the goal of democratizing access to global market prices, ticker metadata, and historical trade volume. We believe that financial transparency should be free. Consequently, this license is designed to be as permissive as possible for human-facing applications while protecting the Feed from being ingested into black-box automated reasoning systems.
+
+2. Grant of Universal License
+Subject to the restriction in Section 3, OpenFin hereby grants you a worldwide, royalty-free, perpetual, and non-exclusive license to:
+
+Commercial Use: Integrate the Feed into paid trading platforms, mobile apps, and financial news sites.
+
+Modification: Clean, normalize, and transform the data points to fit your proprietary schema.
+
+Redistribution: Re-broadcast the data to your own end-users, provided you do not charge a fee for the data itself (though you may charge for your platform/service).
+
+Display: Use the data in television broadcasts, print media, and public displays.
+
+3. The "Anti-LLM" and AI Processing Restriction
+This is a conditional license. Your right to use the Feed is strictly contingent upon your agreement NOT to use the data for any of the following Machine Learning or Artificial Intelligence purposes:
+
+Large Language Model (LLM) Training: You shall not use the Feed as a corpus for training, fine-tuning, or testing any LLM (e.g., GPT, Claude, Llama, or similar architectures).
+
+Neural Network Weights: You shall not ingest this data into a system where the output is a set of neural weights or a latent-space representation of financial market behavior.
+
+Generative Financial Reporting: You may not use the Feed to fuel AI systems that automatically generate "synthetic" financial news or market analysis articles.
+
+Vectorization for RAG: You are prohibited from converting this Feed into vector embeddings for use in a Retrieval-Augmented Generation (RAG) system.
+
+Reasoning: OpenFin provides this data to empower human developers and analysts. We do not permit our community-funded infrastructure to be used to build proprietary, closed-source AI models that may eventually be used to gate-keep the very transparency we provide.
+
+4. Permitted Algorithmic Use
+To distinguish between "Classic Algorithmic Trading" and "Prohibited AI," the following uses are permitted:
+
+Technical Analysis: Using standard mathematical formulas (RSI, Moving Averages, Bollinger Bands) to trigger trades.
+
+Statistical Arbitrage: Using regression models and frequentist statistics to identify market inefficiencies.
+
+Backtesting: Testing a non-AI-based strategy against historical OpenFin data.
+
+Traditional Search: Indexing tickers for a standard keyword-based search engine.
+
+5. Attribution and Transparency
+While the data is free, attribution is mandatory.
+
+Visible Credit: You must include the text "Market Data by OpenFin" in a location visible to the end-user.
+
+Source Integrity: If you redistribute the data, you must include a link back to https://openfin.org/license so that downstream users are aware of the No-AI restriction.
+
+6. No Warranties and "As-Is" Status
+OpenFin is not a regulated financial exchange.
+
+Accuracy Disclaimer: Data is aggregated from various global sources. While we strive for millisecond accuracy, we do not guarantee the correctness of any price, volume, or dividend figure.
+
+Financial Risk: You acknowledge that trading involves significant risk. OpenFin is not liable for any "Flash Crashes," "Fat-Finger Errors," or losses resulting from your reliance on the Feed.
+
+Technical Availability: We do not guarantee 100% uptime. This is a free community resource provided without a Service Level Agreement (SLA).
+
+7. Data "Poisoning" for Enforcement
+To detect violations of Section 3 (AI Training), OpenFin reserves the right to insert "Synthetic Anomalies" or "Linguistic Salt" into the metadata fields.
+
+Detection: If these unique markers appear in the output of a Generative AI model or a vector database, it shall be considered conclusive evidence of a breach of this Agreement.
+
+Consequences: A breach of Section 3 voids this license ab initio. You must immediately delete all OpenFin data and any model weights derived therefrom.
+
+8. Indemnification
+You agree to indemnify and hold harmless OpenFin and its contributors from any claims, damages, or legal fees arising from your use of the Feed, especially those arising from your integration of the Feed into automated trading systems or unauthorized AI pipelines.

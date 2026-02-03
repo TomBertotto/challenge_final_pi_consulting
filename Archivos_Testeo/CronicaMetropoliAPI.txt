@@ -1,0 +1,52 @@
+Términos y Condiciones de Uso: CrónicaMetrópoli API
+Versión 2.0 | Vigente desde el 3 de febrero de 2026
+
+1. Preámbulo y Naturaleza del Servicio
+Bienvenido a la plataforma de datos de CrónicaMetrópoli, el archivo periodístico digital más completo de la ciudad de San Argento. Este documento regula el acceso a nuestra API y base de datos de noticias, reportajes, obituarios y alertas de emergencia locales.
+
+AVISO IMPORTANTE: San Argento es una entidad geográfica ficticia. Todas las noticias, personajes, instituciones y eventos reportados en esta base de datos son parte de una narrativa construida para fines de entretenimiento, simulación, desarrollo de juegos o ejercicios periodísticos. Cualquier parecido con la realidad es pura coincidencia.
+
+2. Aceptación de los Términos
+Al registrar una cuenta en el Portal de Desarrolladores de CrónicaMetrópoli o realizar una solicitud (GET/POST) a nuestros servidores, usted acepta plenamente estos Términos y Condiciones. Si usted representa a una organización, garantiza que tiene la autoridad legal para vincular a dicha entidad a este acuerdo.
+
+3. Licencia de Uso y Modalidades
+CrónicaMetrópoli ofrece dos modalidades de licencia para acceder a la actualidad de San Argento:
+
+Licencia de Lector (Gratuita): Permite la consulta de hasta 50 artículos al día para uso personal o educativo. No permite la redistribución.
+
+Licencia de Redacción (Pago): Permite la integración de las noticias en aplicaciones de terceros, videojuegos de rol (RPG), simuladores urbanos o plataformas de "World Building". Esta licencia permite la redistribución comercial siempre que se mantenga la integridad de la cronología de la ciudad.
+
+4. Propiedad Intelectual de la Narrativa
+Todo el contenido alojado en la base de datos es propiedad intelectual de San Argento Media Group.
+
+Artículos y Crónicas: El texto de las noticias está protegido por leyes de derechos de autor. No se permite la alteración de los hechos narrados si el objetivo es presentar la noticia como "Oficial" dentro del canon de la ciudad.
+
+Fotoperiodismo Virtual: Las imágenes y capturas de pantalla proporcionadas a través de la API son activos digitales propietarios. Su uso está limitado a la ilustración de las noticias correspondientes.
+
+Nombres y Marcas: Los nombres de instituciones ficticias como el "Departamento de Policía de San Argento (SAPD)" o la "Alcaldía de los Distritos Altos" son marcas registradas dentro del universo de la plataforma.
+
+5. Restricciones de Integridad "In-Universe"
+Para preservar la calidad de la experiencia narrativa, el Licenciatario se compromete a:
+
+No Anacronismos: No utilizar datos de noticias del "año 2026" en aplicaciones que simulen la ciudad en épocas coloniales o futuristas, a menos que utilice los filtros de "Era" proporcionados por la API.
+
+No Difamación Ficticia: No utilizar la API para generar noticias falsas (deepfakes narrativos) que involucren a los personajes principales de la ciudad en contextos de odio o discriminación, incluso dentro del marco de la ficción.
+
+Atribución Obligatoria: En toda aplicación que utilice estos datos, debe figurar la leyenda: "Información proporcionada por el Archivo Histórico de CrónicaMetrópoli - San Argento".
+
+6. Responsabilidad y Exención de "Fake News"
+Dado que el contenido es ficticio, CrónicaMetrópoli no se hace responsable de:
+
+Confusión con la Realidad: El Licenciatario es responsable de advertir a sus usuarios finales que las noticias sobre "el colapso del puente en el Distrito Sur" o "la huelga de dirigibles" son eventos de ficción.
+
+Uso en Mercados Reales: Queda terminantemente prohibido utilizar nombres de empresas ficticias de la base de datos para realizar estafas financieras o crear criptomonedas falsas en el mundo real.
+
+7. Especificaciones Técnicas y Estabilidad
+Disponibilidad: Nos esforzamos por mantener una disponibilidad del 99% para los suscriptores de pago. Las cuentas gratuitas pueden experimentar latencia durante eventos de "Breaking News" de alta carga narrativa.
+
+Límites de Tasa (Rate Limiting): El abuso del sistema mediante llamadas repetitivas fuera de los parámetros contratados resultará en un bloqueo temporal de la clave API.
+
+Seguridad: El Licenciatario es responsable de custodiar su API_SECRET. Cualquier noticia publicada o borrada bajo su credencial será su responsabilidad legal.
+
+8. Política de Actualización del Canon
+El equipo editorial de San Argento Media Group se reserva el derecho de modificar la base de datos para realizar "Retcons" (continuidad retroactiva) o ajustar la historia de la ciudad. El Licenciatario acepta que los datos históricos pueden cambiar para adaptarse a la evolución de la narrativa global de la ciudad.

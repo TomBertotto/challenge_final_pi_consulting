@@ -1,0 +1,64 @@
+CinePro Data Systems: Enterprise License Agreement
+Document ID: CP-ENT-2026-REV1 | Effective Date: February 3, 2026
+
+1. Scope of the Commercial Agreement
+This Enterprise License Agreement (the "Agreement") is entered into between CinePro Data Systems LLC ("CinePro") and the purchasing entity ("Licensee"). CinePro provides a premium, high-fidelity database consisting of enriched cinematic metadata, box office analytics, high-resolution media assets, and global availability tracking (the "Licensed Suite").
+
+By executing a Sales Order or accessing the CinePro API via a paid credential, Licensee agrees to be bound by these terms. This is a purely commercial product; no "Hobbyist" or "Free" access is permitted under this Agreement.
+
+2. Grant of Commercial License
+Subject to the payment of all applicable Subscription Fees, CinePro grants Licensee a non-exclusive, non-sublicensable, and non-transferable license to:
+
+Integrate the Licensed Suite into Licensee’s commercial applications, websites, or hardware interfaces.
+
+Display metadata (titles, synopses, cast, crew) to an unlimited number of end-users, provided such users do not have direct access to the raw database files.
+
+Internal Analytics: Use the data for market research, trend forecasting, and internal business intelligence.
+
+3. Payment Terms and Fee Structure
+Access to CinePro is contingent upon a "Pay-to-Play" model.
+
+Annual Subscription: The base fee is billed annually. Failure to renew results in immediate termination of the API key and a requirement to purge all cached CinePro data.
+
+Tiered Pricing: Fees are calculated based on "Monthly Active Users" (MAU) of the Licensee’s application. If the Licensee moves to a higher tier during a billing cycle, a pro-rated invoice will be issued.
+
+Taxes: All fees are exclusive of VAT, GST, or local sales taxes.
+
+Late Fees: Past-due balances will accrue interest at a rate of 1.5% per month or the maximum rate permitted by law.
+
+4. Data Fidelity and "Golden Record" Guarantee
+CinePro prides itself on having the industry's "Golden Record."
+
+Human Verification: 98% of our data points are verified by two or more human editors.
+
+Update Frequency: Our "Production Status" and "Box Office" tables are updated every 60 seconds.
+
+Correction Requests: Paid Licensees have access to a priority support desk to request corrections. CinePro will investigate and resolve verified inaccuracies within 24 business hours.
+
+5. Stringent Commercial Restrictions
+To protect our market position, the following activities are strictly prohibited and constitute a material breach:
+
+Data Resale: You may not repackage the CinePro data to create a competing API or database service.
+
+Bulk Downloading: Systematic "warehousing" of the entire database for the purpose of ending the subscription while retaining the data is prohibited.
+
+AI Training: Use of CinePro’s high-quality synopses or proprietary "Sentiment Scores" for training generative AI models is forbidden without a separate "AI Corpus Addendum."
+
+Credential Sharing: API keys are tied to specific IP ranges or App IDs. Sharing keys across multiple unrelated products is a violation of the "Per-Product" licensing model.
+
+6. Intellectual Property & Media Assets
+Ownership: CinePro retains all rights to the organization, schema, and enrichment of the data.
+
+Imagery: While CinePro provides links to posters and trailers, the Licensee acknowledges that the underlying copyright of these assets belongs to the respective Movie Studios. CinePro provides the technical path to the asset, but the Licensee must ensure their use of the imagery complies with Studio-specific licensing.
+
+Copyright Markers: CinePro inserts "phantom records" (fictional movies with subtle identifiers) into the database. If these records appear in a competitor's product, it serves as prima facie evidence of data theft.
+
+7. Service Level Agreement (SLA)
+CinePro guarantees a 99.99% Monthly Uptime Percentage.
+
+Redundancy: We utilize multi-region cloud hosting to ensure that regional outages do not affect the Licensee’s production environment.
+
+Credit Policy: If uptime falls below the guarantee, Licensee is eligible for a credit ranging from 10% to 50% of the monthly fee, depending on the severity of the downtime.
+
+8. Audit and Compliance
+Upon thirty (30) days' notice, CinePro shall have the right to audit the Licensee’s use of the data to ensure compliance with the MAU tiers. If an audit reveals an underpayment of more than 5%, the Licensee shall pay the cost of the audit in addition to the owed fees.

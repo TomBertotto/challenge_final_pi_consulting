@@ -1,0 +1,72 @@
+GraphLogic UI: Universal Component License
+Version 5.0 | Last Updated: February 2, 2026
+
+1. The "Permissive" Grant of License
+GraphLogic UI (the "Software") is a collection of visualization components, algorithms, and stylesheets. FinFlow Systems Inc. (the "Licensor") hereby grants you, and any person or entity obtaining a copy of the Software, a worldwide, royalty-free, non-exclusive, perpetual, and irrevocable license to:
+
+Use: Run the Software for any purpose, including commercial, government, and private use.
+
+Modify: Create derivative works by altering, extending, or simplifying the source code.
+
+Merge: Incorporate the Software into your own proprietary or open-source applications.
+
+Distribute: Share the original or modified code with others, whether for free or for a fee.
+
+Sublicense: Grant third parties the right to use the Software as part of your larger product.
+
+Key Takeaway: You can use this to build a internal dashboard at a non-profit, or use it as the core engine for a $1,000/month SaaS product. We do not ask for a cut of your revenue.
+
+2. The Attribution Requirement (The Only "Catch")
+While the Software is free, you must maintain the "Chain of Attribution."
+
+Notice Retention: You must include the original copyright notice and this permission notice in all copies or substantial portions of the Software.
+
+Location of Notice: For web applications, this can be inside the source code comments (e.g., at the top of a minified .js file) or in a "Legal" or "Third-Party Licenses" section of your app's settings.
+
+No Endorsement: You may not use the "GraphLogic" name or brand to promote your product without prior written permission. You cannot claim that FinFlow Systems Inc. "endorses" your specific implementation.
+
+3. Data Structure Visualization & Intellectual Property
+The Software is specifically optimized to visualize complex data structures (Binary Trees, Red-Black Trees, Directed Acyclic Graphs, etc.).
+
+Logic vs. Presentation: You own the data structures you feed into the component. FinFlow owns the "Logic of Visualization"—the specific way the component calculates node coordinates, edge routing, and collision detection.
+
+Telemetry: This version of the Software does not phone home. We do not collect data on the types of structures you visualize or the content of your data.
+
+4. Commercial Use Rights
+For the avoidance of doubt, "Commercial Use" under this agreement includes:
+
+Use in a product that is sold, leased, or licensed for a fee.
+
+Use in a service where users pay for access (SaaS).
+
+Use in an internal tool at a for-profit corporation.
+
+Use in advertisements or promotional materials.
+
+Use by freelancers or agencies for client work.
+
+5. Absolute Disclaimer of Warranty ("AS IS")
+Because the Software is provided free of charge, the Licensor provides zero guarantees.
+
+No Warranty: THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+The Risk is Yours: The entire risk as to the quality and performance of the Software is with you. Should the Software prove defective, you (not the Licensor) assume the entire cost of all necessary servicing, repair, or correction.
+
+Financial Accuracy: If you use this component to visualize live financial data (e.g., stock tickers), be aware that rendering delays or browser-side lag are inherent to the Software's environment. We are not liable for trading losses incurred due to visualization errors.
+
+6. Limitation of Liability
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+This includes, but is not limited to:
+
+Loss of Profit: Any loss of business or revenue.
+
+Data Loss: Any corruption or loss of data visualized by the component.
+
+Third-Party Claims: Any lawsuit brought against you by your users.
+
+7. Termination
+This license is perpetual and will not expire so long as you remain in compliance with Section 2 (Attribution). If you remove the copyright notices from the source code and refuse to reinstate them upon notice, your rights under this license terminate immediately.
+
+8. Patent Grant
+To ensure your commercial safety, each contributor to GraphLogic UI hereby grants you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, have made, use, offer to sell, sell, and import the Software. This protects you from "patent trolls" targeting the specific visualization methods used in our code.

@@ -1,0 +1,58 @@
+Contrato de Licencia de Uso de Datos de Generación: ElectroRed S.A.
+Documento Ref: ER-DATA-2026-COM | Última Revisión: 3 de febrero de 2026
+
+1. Objeto del Contrato
+El presente Contrato de Licencia (el "Contrato") regula los términos bajo los cuales ElectroRed S.A. (en adelante, "el Proveedor") otorga al cliente (en adelante, "el Licenciatario") acceso a su base de datos propietaria de telemetría, capacidad instalada, niveles de embalse y flujo de generación en tiempo real (en adelante, "los Datos").
+
+El acceso a estos Datos está estrictamente condicionado al pago de la tarifa correspondiente y al cumplimiento de los protocolos de seguridad industrial descritos en este documento.
+
+2. Naturaleza del Servicio de Pago
+A diferencia de nuestras consultas públicas, este servicio de base de datos es exclusivamente de pago.
+
+Modelos de Suscripción: El acceso se divide en niveles (Tier 1: Histórico, Tier 2: Tiempo Real, Tier 3: Predictivo). Cada nivel tiene un canon mensual fijado en el Anexo Comercial adjunto.
+
+Activación: La Licencia solo se activará tras la confirmación del primer pago y la validación de la identidad legal del Licenciatario.
+
+Prohibición de Acceso Gratuito: No existe un periodo de prueba ni nivel gratuito para estos Datos debido a la sensibilidad de la infraestructura energética nacional.
+
+3. Propiedad Intelectual y Confidencialidad
+Los Datos proporcionados no son meras cifras estadísticas; son el resultado de inversiones millonarias en sensores y sistemas de monitoreo SCADA.
+
+Propiedad de los Datos: ElectroRed S.A. conserva la propiedad exclusiva de todos los Datos crudos y procesados. La suscripción otorga un "Derecho de Uso", no una transferencia de propiedad.
+
+Secreto Industrial: Los Datos se consideran Información Confidencial. El Licenciatario se compromete a no divulgar, vender, ni ceder estos datos a terceros competidores o entidades gubernamentales sin consentimiento expreso por escrito.
+
+Marcado de Datos: Todos los conjuntos de datos entregados contienen metadatos de rastreo (marcas de agua digitales) para identificar el origen de cualquier filtración accidental o malintencionada.
+
+4. Restricciones de Uso de Infraestructura Crítica
+Dada la naturaleza estratégica de la generación eléctrica, el Licenciatario acepta las siguientes restricciones:
+
+No Redistribución: Queda terminantemente prohibido crear feeds de datos secundarios basados en la información de ElectroRed S.A.
+
+Uso en Mercados de Valores: El uso de estos datos para operaciones de arbitraje o trading de energía debe ser declarado explícitamente, ya que requiere una licencia de "Uso Financiero" adicional.
+
+Análisis de Vulnerabilidad: Está prohibido utilizar los Datos para realizar simulaciones de ataques a la red eléctrica o identificar puntos débiles en la infraestructura de generación con fines no autorizados.
+
+5. Obligaciones de Pago y Facturación
+Tarifas y Ajustes: Las tarifas se ajustarán anualmente de acuerdo con el Índice de Precios al Consumidor (IPC) o el índice de costes del sector energético.
+
+Mora: El impago de una factura por un periodo superior a 5 días naturales resultará en la suspensión automática de las claves de API y el acceso al portal de datos.
+
+Impuestos: Todos los precios indicados se entienden netos. El Licenciatario es responsable del pago del IVA y cualquier otro impuesto local derivado de la transacción.
+
+6. Garantía de Disponibilidad (SLA)
+ElectroRed S.A. se compromete a mantener una disponibilidad del servicio de base de datos del 99.95% anual.
+
+Compensaciones: En caso de caídas del sistema superiores a 4 horas consecutivas, el Licenciatario tendrá derecho a un crédito en su próxima factura proporcional al tiempo de inactividad.
+
+Exclusiones: No se consideran incumplimientos del SLA las paradas programadas de mantenimiento (notificadas con 72 horas de antelación) ni los eventos de fuerza mayor que afecten a la infraestructura troncal de internet o la red eléctrica nacional.
+
+7. Responsabilidad Limitada
+El Proveedor no se hace responsable de las decisiones comerciales o de ingeniería tomadas por el Licenciatario basadas en los Datos.
+
+Errores de Telemetría: El Licenciatario reconoce que los sensores de campo pueden sufrir descalibraciones. Los Datos se entregan "según se generan", y el Proveedor no garantiza la ausencia total de anomalías técnicas.
+
+Límite de Daños: La responsabilidad total acumulada del Proveedor por cualquier reclamación bajo este contrato no excederá la suma de las cuotas pagadas por el Licenciatario en los últimos 6 meses.
+
+8. Seguridad de la Conexión
+El acceso a la base de datos se realizará exclusivamente mediante túneles VPN cifrados o certificados mTLS. El Licenciatario es responsable de asegurar sus propios terminales de acceso para evitar que actores maliciosos utilicen sus credenciales para infiltrarse en los sistemas de ElectroRed S.A.

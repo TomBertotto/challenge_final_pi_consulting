@@ -1,0 +1,64 @@
+Términos y Condiciones de Uso: CineData Open
+Versión 3.4 | Última actualización: 3 de febrero de 2026
+
+1. Aceptación de los Términos
+Al acceder, consultar o utilizar la interfaz de programación de aplicaciones (API) o el portal web de CineData Open (en adelante, "el Servicio"), usted acepta quedar vinculado por los presentes Términos y Condiciones.
+
+Este es un acuerdo legal entre CineData Systems S.L. y usted (el "Usuario"). Si no está de acuerdo con alguna de estas cláusulas, deberá cesar inmediatamente el uso de nuestra base de datos.
+
+2. Gratuidad del Servicio y Modelo de Sostenibilidad
+CineData Open es una iniciativa dedicada a la preservación y difusión de la cultura cinematográfica.
+
+Acceso Sin Coste: El acceso a los metadatos básicos (títulos, años de estreno, directores y repartos) es totalmente gratuito tanto para uso personal como comercial.
+
+Sin Suscripción Forzosa: No se requiere una tarjeta de crédito para las consultas estándar, aunque el uso de la API requiere el registro de una "Clave de Acceso" gratuita para fines de control de tráfico.
+
+Donaciones y Patrocinios: El servicio se sostiene mediante donaciones voluntarias y patrocinios. El uso gratuito no otorga al Usuario derecho a exigir niveles de servicio (SLA) específicos.
+
+3. Propiedad Intelectual y Licenciamiento
+Aunque el acceso sea gratuito, el contenido de la base de datos está sujeto a diferentes regímenes de propiedad intelectual:
+
+Datos Técnicos (Hechos): Los datos fácticos (como la duración de una película o el nombre del director de fotografía) se consideran de dominio público o bajo licencia CC0.
+
+Sinopsis y Reseñas: Las descripciones de las tramas y las críticas presentes en CineData Open son obras originales. Se otorgan bajo una licencia Creative Commons Atribución 4.0 (CC BY 4.0). Usted puede copiar y redistribuir este material, siempre que dé el crédito correspondiente a "CineData Open".
+
+Material Gráfico (Pósters y Fotogramas): CineData Open actúa como un índice. Las imágenes de pósters son propiedad de sus respectivos estudios de producción. El Usuario es responsable de asegurar que su uso de estas imágenes cumple con las doctrinas de "Uso Legítimo" (Fair Use) o cuenta con el permiso del titular.
+
+4. Restricciones de Uso (Lo que NO está permitido)
+Para garantizar la estabilidad del servicio para todos, queda estrictamente prohibido:
+
+Extracción Masiva (Scraping): El uso de scripts para descargar la base de datos completa fuera de los límites de la API.
+
+Suplantación de Identidad: Utilizar los datos para crear un servicio que confunda al público haciéndose pasar por una extensión oficial de CineData.
+
+Reventa de Datos: Vender el acceso a la API de CineData a terceros como si fuera un servicio propio.
+
+Uso en Modelos de IA: (Opcional, según su preferencia previa) Queda prohibido el entrenamiento de modelos de lenguaje utilizando nuestras sinopsis propietarias sin un acuerdo por escrito.
+
+5. Limitación de Responsabilidad y Garantías
+El Servicio se proporciona "TAL CUAL" (as is) y "SEGÚN DISPONIBILIDAD".
+
+Exactitud de los Datos: El cine es un arte con una historia compleja. CineData Open no garantiza que la información sea 100% precisa. No nos hacemos responsables de errores en fechas de estreno, errores ortográficos en nombres de actores o clasificaciones por edades incorrectas.
+
+Interrupciones: Al ser un servicio gratuito, no garantizamos que el servidor esté disponible el 100% del tiempo. Podemos realizar mantenimientos de emergencia sin previo aviso.
+
+Daños Indirectos: En ningún caso CineData Systems S.L. será responsable por pérdidas de beneficios, datos o cualquier daño indirecto derivado del uso de nuestra base de datos en aplicaciones de terceros.
+
+6. Contenido Generado por el Usuario
+Si el Usuario decide colaborar enviando datos, fotos o correcciones:
+
+Licencia Global: Usted nos otorga una licencia perpetua, mundial y gratuita para publicar, traducir y modificar dicho contenido.
+
+Veracidad: Usted garantiza que la información enviada es veraz y que posee los derechos necesarios para compartirla.
+
+Moderación: CineData se reserva el derecho de eliminar cualquier comentario o dato que resulte ofensivo, difamatorio o que infrinja leyes locales.
+
+7. Protección de Datos y Privacidad
+CineData Open cumple con el Reglamento General de Protección de Datos (RGPD).
+
+Recolección Mínima: Solo almacenamos el correo electrónico necesario para la generación de la clave API.
+
+Cookies: Utilizamos cookies técnicas esenciales para mantener la sesión del usuario y herramientas de análisis anónimas para medir el tráfico global.
+
+8. Legislación Aplicable y Jurisdicción
+Estos términos se rigen por las leyes de España. Cualquier disputa relacionada con el Servicio será sometida a los tribunales de la ciudad de Madrid, renunciando las partes a cualquier otro fuero que pudiera corresponderles.
