@@ -37,7 +37,7 @@ class LLMService:
         return f"""
             *)Pregunta: \n
                 {question} \n
-            *)Contexto-Segmentos de información: \n
+            *)Contexto: \n
                 {chunks}\n
             *)Respuesta:\n
             """

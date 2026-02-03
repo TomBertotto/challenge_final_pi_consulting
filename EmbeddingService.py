@@ -54,7 +54,7 @@ class EmbeddingService:
     
     def select_distinct_best_chunks(self, results, max_entities = 15):
         selected = []
-        terms_id_usados = set()
+        best_by_terms_id = {}
 
         documents = results["documents"][0]
         metadatas = results["metadatas"][0]
@@ -63,20 +63,20 @@ class EmbeddingService:
         for doc, meta, dist in zip(documents, metadatas, distances):
             tid = meta["terms_id"]
 
-            if tid in terms_id_usados:
-                continue
+            if tid not in best_by_terms_id or dist < best_by_terms_id[tid]["distance"]:
+                best_by_terms_id[tid] = {
+                    "chunk": doc,
+                    "terms_id": tid,
+                    "distance": dist,
+                    "source": meta.get("source"),
+                    "domain": meta.get("domain")
+                }
+                
+                
 
-            selected.append({
-                "chunk": doc,
-                "terms_id": tid,
-                "distance": dist,
-                "source": meta.get("source"),
-                "domain": meta.get("domain")
-            })
+        seleccionados = sorted(
+            best_by_terms_id.values(),
+            key = lambda x: x["distance"]
+        )[:max_entities]
 
-            terms_id_usados.add(tid)
-
-            if len(selected) == max_entities:
-                break
-        
-        return selected
+        return seleccionados
