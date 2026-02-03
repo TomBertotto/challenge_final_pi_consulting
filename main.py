@@ -91,7 +91,7 @@ def ask(req: AskRequest):
     seleccionados = []
 
     if multi_entidad:
-        seleccionados = embedding_service.select_distinct_best_chunks(results, max_entities=3)
+        seleccionados = embedding_service.select_distinct_best_chunks(results, max_entities=15)
         chunks = [c["chunk"] for c in seleccionados]
         sources = [c["source"] for c in seleccionados]
     else:

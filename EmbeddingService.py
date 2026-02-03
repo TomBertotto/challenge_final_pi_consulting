@@ -33,7 +33,6 @@ class EmbeddingService:
     
     def process_document(self, terms_document: TermsDocument):
         text = terms_document.get_terms()
-        #TODO: si text no está en MP buscarlo manualmente de forma local
         chunks = self.text_splitter.split_text(text)
         
         ids = []
@@ -41,7 +40,7 @@ class EmbeddingService:
         metadatas = []    
 
         for i, chunk in enumerate(chunks):
-            ids.append(f"{terms_document.terms_id}_{i}")#TODO ver si conviene dejarle el idx
+            ids.append(f"{terms_document.terms_id}_{i}")
             documents.append(chunk)
             metadatas.append({
                 "terms_id" : terms_document.terms_id,
@@ -53,7 +52,7 @@ class EmbeddingService:
         self.collection.add(ids=ids, documents=documents, metadatas=metadatas)
 
     
-    def select_distinct_best_chunks(self, results, max_entities = 3):
+    def select_distinct_best_chunks(self, results, max_entities = 15):
         selected = []
         terms_id_usados = set()
 

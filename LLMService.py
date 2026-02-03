@@ -39,16 +39,17 @@ class LLMService:
                 {question} \n
             *)Contexto-Segmentos de información: \n
                 {chunks}\n
-            *) Respuesta:\n
+            *)Respuesta:\n
             """
     
     def answer_question(self, question, chunks: str) -> str:
         system_prompt="""
-            *)Sos un agente que debe responder una pregunta en base a diferentes segmentos de información y respetando las siguiente reglas en tu respuesta:\n
+            *)Sos un agente que debe responder preguntas sobre documentación de términos y condiciones.
+            *)La respuesta debe realizarse en base a segmentos de información (contexto) y respetando las siguientes reglas al responder:\n
                 - No usar emojis\n
                 - Contestar siempre en español independientemente de si la pregunta y el contexto están en otro idioma\n
-                - Si la pregunta es sensible u ofensiva responder: "No puedo contestar esa pregunta"\n
-                - La respuesta debe siempre centrada usando únicamente los segmentos de información provistos y nunca otra información
+                - Si la pregunta es sensible u ofensiva responder únicamente: "No puedo contestar esa pregunta"\n
+                - La respuesta debe realizarse en base al contexto y segmentos de información proporcionados
         """
 
         respuesta = self.cohere_client.chat(
