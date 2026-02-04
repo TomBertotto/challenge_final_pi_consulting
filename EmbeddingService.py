@@ -33,8 +33,8 @@ class EmbeddingService:
     
     def process_document(self, terms_document: TermsDocument):
         text = terms_document.get_terms()
-        chunks = self.text_splitter.split_text(text)
-        
+        raw_chunks = self.text_splitter.split_text(text)
+        chunks = self._merge_small_chunks(raw_chunks)
         ids = []
         documents = []
         metadatas = []    
@@ -53,7 +53,6 @@ class EmbeddingService:
 
     
     def select_distinct_best_chunks(self, results, max_entities = 15):
-        selected = []
         best_by_terms_id = {}
 
         documents = results["documents"][0]
@@ -80,3 +79,17 @@ class EmbeddingService:
         )[:max_entities]
 
         return seleccionados
+
+    def _merge_small_chunks(self, chunks, min_length = 200):
+        merged = []
+        buffer = ""
+        for chunk in chunks:
+            if len(buffer) < min_length:
+                buffer += " " + chunk
+            else:
+                merged.append(buffer.strip())
+                buffer = chunk
+        
+        if buffer:
+            merged.append(buffer.strip())
+        return merged

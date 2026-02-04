@@ -35,9 +35,9 @@ class LLMService:
 
     def _generate_user_prompt(self, question, chunks) -> str:
         return f"""
-            *)Pregunta: \n
+            *)Pregunta:\n
                 {question} \n
-            *)Contexto: \n
+            *)Contexto:\n
                 {chunks}\n
             *)Respuesta:\n
             """
@@ -45,11 +45,12 @@ class LLMService:
     def answer_question(self, question, chunks: str) -> str:
         system_prompt="""
             *)Sos un agente que debe responder preguntas sobre documentación de términos y condiciones.
-            *)La respuesta debe realizarse en base a segmentos de información (contexto) y respetando las siguientes reglas al responder:\n
+            *)La respuesta debe realizarse en base al contexto de información que se proporcionará y la pregunta
+            *)Al responder se deben resptar las siguientes reglas:\n
                 - No usar emojis\n
                 - Contestar siempre en español independientemente de si la pregunta y el contexto están en otro idioma\n
                 - Si la pregunta es sensible u ofensiva responder únicamente: "No puedo contestar esa pregunta"\n
-                - La respuesta debe realizarse en base al contexto y segmentos de información proporcionados
+                - La respuesta debe realizarse en base al contexto de información proporcionados
         """
 
         respuesta = self.cohere_client.chat(
