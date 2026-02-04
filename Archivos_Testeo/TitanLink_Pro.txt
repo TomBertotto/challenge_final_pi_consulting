@@ -1,0 +1,128 @@
+TitanLink Pro: Enterprise Driver & Firmware License Agreement
+Document ID: TL-DRV-2026-PAID | Classification: Highly Confidential
+
+1. The Commercial Contract
+This Enterprise Driver License Agreement (the "Agreement") is a legal contract between TitanLink Technologies Corp. ("TitanLink") and the entity purchasing the license ("Licensee"). Unlike open-source alternatives, this software is licensed, not sold.
+
+By installing the TitanLink Pro Driver Suite (the "Driver"), you acknowledge that you are accessing proprietary trade secrets and that you have no rights to the software beyond those explicitly granted in this document. Usage without a valid, paid License Key is a violation of international copyright law and the Digital Millennium Copyright Act (DMCA).
+
+2. Grant of Restricted License
+Subject to the receipt of full payment of the License Fees, TitanLink grants Licensee a limited, non-exclusive, non-transferable, and revocable license to:
+
+Binary Use Only: Install and execute the Driver in object code (binary) form only.
+
+Per-Device Licensing: Install the Driver on the specific number of machines or "Nodes" specified in the Sales Order.
+
+Internal Deployment: Use the Driver solely for Licensee’s internal business operations.
+
+3. Absolute Prohibitions (The "Closed-Source" Pillars)
+The Licensee is strictly prohibited from, and shall not permit any third party to:
+
+Reverse Engineer: Decompile, disassemble, or attempt to derive the source code, underlying algorithms, or "Silicon-to-Software" protocols of the Driver.
+
+Modification: Alter, patch, or "hook" the Driver's binary to bypass security checks or add unauthorized functionality.
+
+Sublicensing/Hosting: Use the Driver to power a "Driver-as-a-Service" or "Cloud GPU" offering without a separate Service Provider License.
+
+Benchmarking: Publish performance benchmarks or comparative analysis of the Driver without TitanLink’s prior written consent (to protect against competitive espionage).
+
+4. Fees, Activation, and Auditing
+License Fees: Access is granted upon payment of the "Initial Activation Fee" plus an "Annual Maintenance & Support" (AMS) fee.
+
+Phone-Home Activation: The Driver requires a periodic connection to TitanLink’s activation servers. If the Driver cannot "check-in" for 30 consecutive days, it will enter a "Degraded Performance Mode" until the license is verified.
+
+Audit Rights: TitanLink reserves the right to audit Licensee’s systems (remotely or via an on-site visit with 48 hours' notice) to ensure the number of Driver installations matches the paid license count. Any overage found will be billed at 200% of the standard MSRP.
+
+5. Maintenance, Support, and Updates
+As a paid product, TitanLink Pro includes professional support:
+
+Patch Management: Licensee is entitled to all security patches and performance updates released during the term of the AMS.
+
+Technical Support: Access to "Tier 3" engineers via a dedicated portal with a guaranteed 4-hour initial response time for critical system failures.
+
+Hardware Compatibility: TitanLink guarantees that the Driver will support the specified hardware for a minimum of five (5) years from the date of purchase.
+
+6. High-Stakes Liability and Indemnification
+Proprietary Indemnity: TitanLink will defend Licensee against any third-party claims that the Driver infringes a patent or copyright, provided Licensee has not modified the binary.
+
+Limited Liability: TitanLink’s total liability for any system failure, data loss, or business interruption caused by a bug in the Driver is strictly limited to the total fees paid by Licensee in the 12 months preceding the claim.
+
+Excluded Environments: The Driver is NOT designed or licensed for use in "High-Risk Environments" such as life-support systems, nuclear power plant control, or autonomous weapons platforms.
+
+7. Confidentiality and Trade Secrets
+The Driver contains highly sensitive "Register-Level" information.
+
+Confidentiality: Licensee shall treat the Driver, its documentation, and the results of any performance tests as "Confidential Information."
+
+Disclosure: Licensee shall limit access to the Driver to those employees who have a "need to know" for the purpose of hardware maintenance.
+
+Breach: Any leak of the Driver’s binary to public repositories (e.g., GitHub, BitTorrent) will result in immediate termination of the Agreement and a minimum liquidated damages claim of $500,000 USD.
+
+8. Term and Termination
+Duration: This Agreement remains in effect as long as the Annual Maintenance Fee is paid.
+
+Termination for Cause: TitanLink may terminate this license immediately if Licensee attempts to reverse engineer the code.
+
+Post-Termination: Upon termination, Licensee must uninstall the Driver from all systems and provide a written "Certificate of Destruction" to TitanLink.
+
+9. Export Control and International Trade Compliance
+The Driver contains advanced cryptographic technology and "Dual-Use" algorithms that are subject to the export control laws of the United States (EAR/ITAR) and other international jurisdictions.
+
+Prohibited Destinations: Licensee represents and warrants that the Driver will not be exported, re-exported, or transferred to any country subject to a U.S. or EU trade embargo (including, but not limited to, those currently on the OFAC list).
+
+End-User Restrictions: The Driver shall not be utilized by any entity or individual involved in the design, development, or production of nuclear, chemical, or biological weapons, or missile technology.
+
+Diversion: Any diversion of the Driver contrary to law is a material breach of this Agreement and may result in criminal prosecution by government authorities.
+
+10. Hardware-Linked Cryptographic Enforcement
+To prevent "Software Piracy" and unauthorized lateral movement of the Driver across data centers, TitanLink employs Hardware-Locked Licensing (HLL).
+
+Unique Identifier: During installation, the Driver generates a "Hardware Fingerprint" based on the CPU ID, Motherboard Serial Number, and MAC Address. This fingerprint is permanently linked to the License Key.
+
+Virtualized Environments: If the Driver is deployed within a Virtual Machine (VM) or Container, the Licensee must utilize a "Floating License Server" provided by TitanLink. Failure to configure the license server will result in the Driver failing to initialize.
+
+Anti-Tamper Mechanisms: The Driver includes obfuscation and anti-debugging code. Any attempt to attach a debugger (e.g., GDB, OllyDbg) to the Driver process will trigger an immediate "Secure Wipe" of the local license credentials.
+
+11. Proprietary Rights and Intellectual Property
+No Implied Licenses: No rights are granted by implication or estoppel. All rights not expressly granted to the Licensee in this Agreement are reserved by TitanLink.
+
+Derivative Works: Even if the Licensee develops "Wrapper" code or scripts that interact with the Driver’s API, TitanLink retains ownership of the API definitions and any TitanLink-supplied header files.
+
+Trademark Usage: Licensee is granted a limited, non-exclusive right to use the "TitanLink Optimized" badge in marketing materials, provided the implementation has passed TitanLink’s official "Compatibility Certification."
+
+12. Professional Services and Customization
+If the Licensee requires custom modifications to the Driver (e.g., support for a non-standard OS kernel or specific latency optimizations), such work shall be governed by a separate Statement of Work (SOW).
+
+Ownership of Custom Code: Unless otherwise agreed in writing, all custom modifications developed by TitanLink remain the property of TitanLink and may be incorporated into the standard "General Release" version of the Driver for other customers.
+
+Support for Custom Versions: Support for customized drivers is billed at a "Premium Engineering Rate" and is not included in the standard Annual Maintenance & Support (AMS) fee.
+
+13. Dispute Resolution and Arbitration
+In the interest of protecting trade secrets during litigation, the parties agree to a private dispute resolution process.
+
+Mandatory Mediation: Before initiating any formal legal action, the parties shall attempt to resolve the dispute through mediation in New York, NY, conducted by a single mediator.
+
+Binding Arbitration: If mediation fails, the dispute shall be settled by binding arbitration under the rules of the American Arbitration Association (AAA). The arbitrator must have at least 10 years of experience in software intellectual property law.
+
+Confidentiality of Proceedings: All aspects of the arbitration, including the discovery process and the final ruling, shall be strictly confidential.
+
+Injunctive Relief: Notwithstanding the above, TitanLink reserves the right to seek immediate injunctive relief in any court of competent jurisdiction to prevent the unauthorized disclosure of its source code or trade secrets.
+
+14. Force Majeure and Business Continuity
+TitanLink shall not be liable for any failure to provide updates or support due to causes beyond its reasonable control, including:
+
+Acts of God: Natural disasters, pandemics, or atmospheric anomalies affecting satellite-linked activation servers.
+
+Sovereign Action: Government-mandated internet shutdowns or "Kill Switch" activations.
+
+Supply Chain Interruption: Sudden unavailability of 3rd-party cryptographic libraries used in the Driver’s security layer.
+
+15. Severability and Waiver
+Severability: If any part of this Agreement is held to be unenforceable, the remainder shall continue in full force. The unenforceable part shall be modified to reflect the parties' original intent as closely as possible under the law.
+
+No Waiver: TitanLink’s failure to enforce any provision of this Agreement does not constitute a waiver of its right to do so in the future.
+
+16. Final Agreement and Sign-Off
+This Agreement, along with the associated Sales Order, represents the entire understanding between TitanLink and the Licensee. It supersedes all prior proposals, whether oral or written. No modification to this Agreement shall be valid unless signed in ink by an authorized executive of both parties.
+
+Execution: By entering the License Key provided at the time of purchase, the Licensee signifies their total acceptance of these terms.

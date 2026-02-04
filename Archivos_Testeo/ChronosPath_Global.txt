@@ -1,0 +1,123 @@
+ChronosPath Global: Premium Historical & Travel Intelligence
+Document Ref: CP-HIST-2026-PREMIUM | Classification: Commercial / Proprietary
+
+1. The Commercial Mandate
+ChronosPath Global (the "Software") is a premium, paid-access intelligence platform. It provides specialized data on significant historical sites, archaeological remains, and cultural heritage locations across seven continents.
+
+By purchasing a license and activating your corporate or individual account, you (the "Licensee") agree to be bound by these Terms and Conditions. This is not a public utility; it is a professional tool. Unauthorized access or "Trial-hacking" is a violation of international intellectual property laws.
+
+2. Fee Structure and Licensing Models
+Access is contingent upon the successful processing of "Subscription Fees" or "Single-Site Licensing Fees."
+
+Enterprise Tier: For global travel firms and media networks. Allows multi-user access and high-volume data pulls for production use.
+
+Curator Tier: For boutique historical tours and academic researchers. Limited to specific geographic regions.
+
+No Free Access: There is no "Freemium" version of ChronosPath. Our data is verified by paid experts, and as such, it must be sustained by a paid model.
+
+3. Absolute Prohibition on AI, LLM, and Machine Learning
+The most critical restriction of this agreement is the Non-Ingestion Clause. ChronosPath data represents "Human Heritage" and is not to be used to enrich machine intelligence.
+
+AI Training Ban: The Licensee is strictly prohibited from using the Software’s descriptions, coordinates, historical timelines, or high-definition imagery to train, fine-tune, or validate any Artificial Intelligence, Neural Network, or Large Language Model (LLM).
+
+Generative Travel Guides: You may not use ChronosPath data to feed "AI Travel Agents" or automated content generators that create synthetic itineraries.
+
+Vectorization Restriction: Ingesting our proprietary site histories into vector databases for Retrieval-Augmented Generation (RAG) is a material breach of contract.
+
+Preservation of Human Insight: Our data is valued for its human perspective. Any "Automated Processing" that strips the human nuance from the historical record for machine consumption is forbidden.
+
+4. Proprietary Data Assets
+The Software provides access to assets that are the result of significant private investment:
+
+Digital Twins: 3D LiDAR scans of historical sites that are not accessible to the general public.
+
+Archival Synthesis: Proprietary narratives that connect disparate historical records (e.g., connecting Roman silk trade routes with Han Dynasty maritime logs).
+
+GPS & Logistics: Precise, verified logistics data for remote historical sites, including "Safe Path" coordinates and local permit requirements.
+
+5. Intellectual Property and Usage Rights
+Limited Sublicense: You may use the data to create "End Products" (e.g., a travel brochure or a documentary script), but you may not sell the raw data itself.
+
+Copyright Attribution: All outputs must carry the watermark or credit: "Historical Data provided by ChronosPath Global."
+
+Non-Compete: You may not use our data to build a competing historical database or travel software.
+
+6. Ethical Travel and Cultural Sensitivity
+ChronosPath is committed to the "Do No Harm" principle of archaeology.
+
+Looting Prevention: Licensee agrees not to use precise archaeological coordinates for illegal excavation, "treasure hunting," or site desecration.
+
+Sacred Sites: Certain data points are marked as "Sacred/Non-Tourist." The Licensee agrees to respect these designations and not lead unauthorized groups to these locations.
+
+7. Data Accuracy and Liability
+Expert Verification: We guarantee that 100% of our "Primary Sites" have been verified by a qualified historian or archaeologist within the last 24 months.
+
+No Physical Warranty: While we provide historical data, we do not guarantee the physical safety of the locations. Travel to significant historical sites often involves inherent risks (political instability, terrain, weather).
+
+Financial Limitation: ChronosPath’s liability for any errors in historical dating or travel logistics is limited to the cost of the Licensee’s annual subscription.
+
+8. Auditing and Technical Enforcement
+To protect our high-value data from AI scraping and account sharing:
+
+Interactive Watermarking: Our database uses "steganographic" watermarking. If a paragraph of our historical text is found on a public website or within an AI's output, it will contain invisible codes identifying the specific Licensee who leaked it.
+
+Rate Limiting: Even paid accounts are subject to "Human-Speed" rate limits. Any pattern suggesting "Rapid Data Extraction" will trigger an immediate account freeze.
+
+Compliance Audits: Corporate Licensees agree to an annual "Data Usage Audit" to ensure our proprietary histories haven't been migrated into prohibited AI environments.
+
+9. Termination and Penalties
+Immediate Termination: Breach of the AI/LLM prohibition (Section 3) results in immediate, non-refundable termination of access.
+
+Liquidated Damages: Due to the difficulty of calculating the long-term loss of data value when ingested by an AI, Licensee agrees to liquidated damages of $250,000 USD per verified instance of AI ingestion.
+
+10. Governing Law
+This Agreement is governed by the laws of the United Kingdom and the international treaties governing the protection of Cultural Heritage and Intellectual Property.
+
+11. Specialized Media Assets and LiDAR Data Rights
+The Software provides access to "Digital Twins" and high-resolution orthophotography that are not available in the public domain.
+
+Limited Display License: Licensees may use static renders of 3D site scans in physical print media or digital presentations, provided the imagery does not exceed 20% of the total project content.
+
+Prohibition of Mesh Extraction: The extraction of raw 3D point clouds or wireframe meshes for use in video games, VR environments, or 3D printing is strictly prohibited without a separate "Media Production Addendum."
+
+No AI Reconstruction: Under no circumstances may these images be used as "Image-to-Image" prompts for AI diffusion models to generate "imagined" historical reconstructions.
+
+12. "Living Heritage" and Contemporary Local Ethics
+History is not just in the past; it involves living communities. The Licensee agrees to the following "Respect Protocols":
+
+Privacy of Residents: Many historical sites are located within or adjacent to inhabited villages. The Software may contain "Restricted Access" notes regarding photography or drone usage. The Licensee must abide by these local privacy mandates.
+
+Repatriation Acknowledgement: In the event that a physical artifact documented in the Software is subject to a formal repatriation claim (e.g., return to its country of origin), ChronosPath reserves the right to update the digital record to reflect its new provenance and status.
+
+Conflict Zones: For sites located in "Red Zone" (active conflict) areas, the Software provides historical data but explicitly forbids the use of its logistics data for "War Tourism."
+
+13. Corporate Subscription Management and "Seat" Security
+To prevent the dilution of our paid model, the following security measures apply to corporate accounts:
+
+Nominated Users: Professional and Enterprise tiers are assigned to "Named Seats." Credentials may not be shared across departments or with external contractors.
+
+Geofencing: Access may be restricted to the Licensee’s registered corporate IP ranges. If a Licensee requires "Field Access" (e.g., an archaeologist on-site in Egypt), they must use the encrypted ChronosPath Mobile Vault with Multi-Factor Authentication (MFA).
+
+Usage Logs: The Licensee acknowledges that ChronosPath logs all search queries and data exports. These logs are stored for 24 months to ensure compliance with the No-AI Ingestion Clause.
+
+14. Professional Indemnification and "High-Value" Liability
+Indemnification by Licensee: The Licensee shall indemnify ChronosPath against any claims, losses, or legal fees resulting from the Licensee's misuse of sensitive historical data (e.g., trespassing on restricted land based on a misinterpretation of coordinates).
+
+Insurance Requirement: Enterprise Licensees are encouraged to maintain professional liability insurance if they use ChronosPath data to guide high-net-worth individuals or film crews into remote or hazardous historical regions.
+
+Data "Sovereignty" Errors: While we provide the most accurate geopolitical borders available, ChronosPath is not an authority on territorial disputes. Use of our maps for diplomatic or legal boundary definitions is at the Licensee's own risk.
+
+15. The "Legacy" Protection Clause (Anti-Scraping 2.0)
+To further fortify our stance against AI-driven data harvesting, we implement "Linguistic Fingerprinting":
+
+Unique Syntax: Our historical narratives use proprietary structural patterns. If these unique patterns are detected within a third-party LLM's response or a "competitor" travel app, it triggers an automatic forensic audit of the Licensee's account.
+
+API Shielding: Any attempt to use "Headless Browsers" or automated scripts to navigate the ChronosPath interface will result in an immediate and permanent hardware-level ban.
+
+16. Governing Law and Arbitration (Extended)
+Exclusive Venue: All legal proceedings shall be held in London, England, under the High Court of Justice.
+
+Expert Testimony: In any dispute regarding Section 3 (AI Prohibition), both parties agree that the arbitrator must appoint a neutral "Technical Master" with expertise in both Large Language Models and Digital Archaeology to determine if a breach occurred.
+
+17. Final Declaration of Acceptance
+By clicking "Purchase License," the Licensee confirms they are a human representative of a legal entity and that they value the preservation of human-curated history over machine-generated approximations

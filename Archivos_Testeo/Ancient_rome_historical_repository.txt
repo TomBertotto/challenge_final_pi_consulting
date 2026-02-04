@@ -1,0 +1,58 @@
+Ancient Rome Historical Repository: Terms of Access
+Version 4.1 | Last Updated: February 3, 2026
+
+1. Introduction to the Classical Archive
+The Ancient Rome Historical Repository (the "Archive") is a digital library dedicated to the preservation and dissemination of texts concerning the Roman Republic and Empire. By utilizing this Archive, you enter a legal agreement with the Institute for Digital Humanities (IDH). Our mission is to provide access to the wisdom of the ancients while protecting the meticulous work of modern historians and philologists.
+
+2. Nature of the Collection: Public Domain vs. Modern Copyright
+Users must distinguish between the "Source Text" and the "Digital Edition":
+
+The Latin/Greek Source: Original texts by authors such as Livy, Tacitus, and Suetonius are in the public domain. You are free to copy, modify, and distribute these ancient words.
+
+Modern Translations: Translations published within the last 70 years (e.g., specific 21st-century English renditions) are not in the public domain. These are licensed for reading and research only.
+
+Critical Apparatus: Footnotes, scholarly introductions, and archaeological maps provided in the Archive are the intellectual property of the IDH or its partner universities.
+
+3. Permitted Academic and Research Use
+The Archive is a "Common Resource" for the global classical community.
+
+Non-Commercial Scholarship: You may use excerpts for peer-reviewed journals, doctoral theses, and classroom presentations.
+
+Creative Interpretation: You may use the public domain source texts as a basis for historical fiction, scripts, or digital recreations of Roman architecture.
+
+Data Mining for Linguistics: Students of Latin and Ancient Greek may use the Archive for "lemmatization" and frequency analysis, provided they do not place undue stress on the Archive’s servers.
+
+4. Restrictions on Commercial Exploitation
+While we encourage the study of the Pax Romana, we prohibit "Parasitic Commercialization":
+
+Bulk Re-publishing: You may not download our entire collection of scanned manuscripts to create a competing paid "Roman Library" app.
+
+No Commercial Scraping: Using bots to scrape our high-resolution scans of the Res Gestae Divi Augusti or other epigraphic records for sale as NFTs or digital assets is strictly prohibited.
+
+Misleading Attribution: You may not claim that the IDH or its affiliated archaeologists endorse your commercial product or historical theory.
+
+5. Intellectual Property and Creative Commons
+Most of the digital objects in the Archive are licensed under CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike):
+
+Attribution: You must credit "Ancient Rome Historical Repository (ARHR)" and the specific translator when using the data.
+
+Non-Commercial: You cannot use our unique digital scans for direct profit.
+
+Share Alike: If you remix our data, you must distribute your contributions under the same license.
+
+6. Archaeological Integrity and Ethical Use
+Access to the Archive carries a responsibility toward the physical history of Rome:
+
+Site Protection: Certain records in the Archive contain GPS coordinates of unexcavated or sensitive archaeological sites. You agree not to use this data for "treasure hunting," looting, or unauthorized metal detecting.
+
+Digital Repatriation: The Archive supports the digital return of cultural heritage. If a sovereign nation or museum proves ownership of a specific manuscript, we reserve the right to remove or restrict access to that item immediately.
+
+7. Disclaimer of Historical Absolute Truth
+History is an evolving field of study.
+
+No Warranty of Fact: The Archive provides texts as they were written or discovered. We do not warrant that the historical claims made in 1st-century texts are accurate or that modern translations are free of interpretative bias.
+
+Offensive Content: Ancient texts may contain views on slavery, gender, and warfare that are inconsistent with modern values. These texts are provided for historical study and do not reflect the views of the IDH.
+
+8. Limitation of Liability
+The IDH shall not be liable for any inaccuracies in the digital transcription of the Theodosian Code or for any data loss occurring during the use of our "Virtual Scroll" viewer. Our liability is limited to the amount paid for access (which, for most scholars, is $0.00).

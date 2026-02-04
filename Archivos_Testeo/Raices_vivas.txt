@@ -1,0 +1,110 @@
+Términos y Condiciones de Uso: Plataforma Educativa Raíces Vivas
+Versión 1.2 | Vigente desde el 3 de febrero de 2026
+
+1. Misión y Propósito Pedagógico
+La plataforma Raíces Vivas (en adelante, "el Software") es un recurso educativo abierto diseñado para conectar a estudiantes, docentes e investigadores con el patrimonio inmaterial, las lenguas indígenas, las tradiciones orales y las artes de comunidades de todo el mundo.
+
+El Software se ofrece de forma completamente gratuita con el fin de eliminar las barreras económicas al conocimiento cultural. No obstante, el acceso está sujeto al respeto absoluto de los derechos de autor de las comunidades y académicos colaboradores.
+
+2. Gratuidad y Licencia de Uso "Humano"
+Raíces Vivas otorga al Usuario una licencia mundial, gratuita, no exclusiva y revocable para utilizar el Software con fines educativos, de investigación o enriquecimiento personal.
+
+Uso en el Aula: Se permite la proyección y el uso de los módulos interactivos en instituciones educativas de cualquier nivel.
+
+Redistribución: Se permite compartir los materiales siempre que se mantenga la integridad del contenido y no se apliquen cargos económicos por el acceso a los mismos.
+
+3. Restricción Absoluta de Procesamiento por IA y LLM
+Esta es la cláusula fundamental de este contrato. Con el fin de proteger la sensibilidad cultural y la propiedad intelectual de las tradiciones orales, queda estrictamente prohibido el uso del Software para:
+
+Entrenamiento de Modelos: El uso de los textos, archivos de audio (especialmente lenguas en peligro de extinción) y videos para alimentar, entrenar o ajustar modelos de lenguaje (LLM) o cualquier arquitectura de red neuronal.
+
+Generación de Contenido Sintético: Utilizar los datos de la plataforma para generar "cultura sintética" o narrativas ficticias mediante herramientas de IA generativa.
+
+Extracción Semántica (Vectorización): La conversión de los artículos y ensayos de Raíces Vivas en bases de datos vectoriales para sistemas de Generación Aumentada por Recuperación (RAG).
+
+Traducción Automática No Supervisada: El uso de motores de IA para traducir las lenguas indígenas presentes en el sitio, con el fin de evitar errores lingüísticos que falten al respeto de la cosmogonía de los pueblos originarios.
+
+Nota Cultural: Esta restricción se basa en el principio de que el conocimiento ancestral es un proceso vivo y humano que no puede ser reducido a parámetros estadísticos sin perder su esencia y respeto sagrado.
+
+4. Propiedad Intelectual y Respeto al Origen
+Derechos de Autor: Los textos técnicos son propiedad de la Fundación Raíces Vivas. Los testimonios y artes son propiedad de las comunidades de origen.
+
+Atribución Obligatoria: Cualquier uso de los materiales debe incluir una mención clara: "Fuente: Plataforma Educativa Raíces Vivas - [Nombre de la Comunidad/Autor si aplica]".
+
+No Comercialización: Queda prohibido el empaquetado de estos contenidos dentro de cursos de pago o libros de texto comerciales sin una autorización expresa por escrito.
+
+5. Contenido Sensible y Normas de Comportamiento
+Dado que el Software incluye acceso a rituales, tradiciones y registros históricos:
+
+Uso Ético: El Usuario se compromete a no utilizar los datos culturales para fines de burla, discriminación o apropiación cultural indebida.
+
+Zonas de Acceso Restringido: Ciertos módulos pueden estar protegidos por "Protocolos de Conocimiento Tradicional", permitiendo el acceso solo a usuarios con perfiles académicos específicos o miembros de la comunidad correspondiente.
+
+6. Limitación de Responsabilidad Educativa
+Veracidad: Raíces Vivas trabaja con antropólogos y líderes comunitarios, pero el conocimiento cultural es fluido. No garantizamos que toda la información sea aceptada por todos los miembros de una comunidad.
+
+Fallas Técnicas: Al ser un recurso gratuito, no ofrecemos garantías de disponibilidad del 100%. El servicio puede interrumpirse por mantenimiento o falta de fondos para servidores.
+
+Uso de Terceros: No nos hacemos responsables de las interpretaciones erróneas que los estudiantes o docentes puedan hacer del contenido cultural.
+
+7. Integridad de los Datos y Seguridad
+Para prevenir la minería de datos por parte de empresas de IA, el Software emplea técnicas de protección técnica:
+
+Bloqueo de Bots: Se monitorizan los patrones de tráfico. Cualquier intento de descarga masiva de la biblioteca de audios resultará en el bloqueo permanente de la IP.
+
+Marcas de Agua Digitales: Los textos y audios contienen metadatos imperceptibles que identifican su origen en caso de ser hallados en bases de datos de entrenamiento de IA.
+
+8. Jurisdicción y Resolución de Conflictos
+Cualquier disputa relacionada con el uso indebido de los datos (especialmente violaciones de la cláusula de IA) se resolverá bajo las leyes de propiedad intelectual y defensa de derechos culturales del país de residencia de la Fundación Raíces Vivas. En casos de afectación a pueblos originarios, se podrán invocar tratados internacionales sobre derechos de los pueblos indígenas.
+
+9. Protocolos de Consentimiento Informado y Ética de Campo
+La plataforma Raíces Vivas no es solo una base de datos técnica, sino un repositorio de memoria viva. Por ello, el acceso a los datos está regulado por principios éticos superiores:
+
+Consentimiento Comunitario: Todo el material audiovisual y los testimonios orales han sido integrados tras un proceso de consulta previa, libre e informada con las autoridades tradicionales de las comunidades.
+
+Derecho al Olvido Cultural: Las comunidades de origen se reservan el derecho de solicitar la retirada de materiales específicos si consideran que su difusión pública afecta la integridad de sus ritos o tradiciones sagradas. El Usuario acepta que ciertos contenidos pueden desaparecer de la plataforma sin previo aviso para respetar esta soberanía.
+
+Prohibición de Bioprospección: Queda terminantemente prohibido utilizar los datos sobre medicina tradicional o botánica indígena presentes en el Software para fines de patentes comerciales, investigación farmacológica privada o cualquier forma de explotación de recursos biogenéticos.
+
+10. Gestión de Archivos Audiovisuales y Multimedia
+El Software contiene archivos de alta fidelidad que representan un valor incalculable para la humanidad.
+
+Formatos y Calidad: Se proporcionan archivos en formatos abiertos para asegurar su preservación a largo plazo.
+
+Restricciones de Manipulación: Se prohíbe el uso de técnicas de "deepfake", edición de voz o alteración visual de los registros históricos. La integridad del mensaje original debe ser preservada en cualquier contexto educativo.
+
+Descargas: Las descargas están permitidas únicamente para uso offline en entornos donde la conectividad a internet sea limitada (escuelas rurales, expediciones de campo), siempre bajo el compromiso de no subirlos a servidores públicos o redes P2P.
+
+11. Protección contra la Descontextualización
+El mayor riesgo para los datos culturales es la pérdida de su contexto original.
+
+Metadatos Obligatorios: Al utilizar cualquier fragmento del Software, es obligatorio mantener los metadatos que identifican la fecha, el lugar, la etnia y el autor del registro.
+
+Uso en Inteligencia Artificial (Refuerzo): Reiteramos que la fragmentación de estos contenidos para alimentar algoritmos de "análisis de sentimientos" o "traducción estadística" constituye una descontextualización violenta de la cultura, lo que resultará en la revocación inmediata de la licencia de uso y posibles acciones legales por daños morales colectivos.
+
+12. Cooperación Internacional y Tratados
+Este contrato se alinea con los estándares internacionales de protección del patrimonio:
+
+UNESCO: El Software opera bajo el marco de la Convención para la Salvaguardia del Patrimonio Cultural Inmaterial.
+
+Declaración de la ONU: Se respetan íntegramente los artículos de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, especialmente en lo referente a la propiedad intelectual y cultural.
+
+13. Auditorías de Uso y Cumplimiento
+La Fundación Raíces Vivas se reserva el derecho de auditar el uso de su API y plataforma para asegurar que no se están violando las cláusulas de "No IA".
+
+Monitoreo de Patrones: El sistema utiliza algoritmos de detección de scraping que identifican si un usuario está recolectando datos para fines ajenos a la educación.
+
+Sanciones: El incumplimiento de la prohibición de uso en LLM conllevará una sanción pública, la notificación a las comunidades afectadas y, de ser necesario, una demanda civil por infracción de los términos de servicio y violación de derechos culturales.
+
+14. Actualización y Evolución de la Plataforma
+El Software es un organismo en crecimiento.
+
+Correcciones Comunitarias: Animamos a los miembros de las comunidades representadas a enviar correcciones. La plataforma priorizará siempre la versión de los hechos narrada por los propios protagonistas culturales frente a las interpretaciones académicas externas.
+
+Cambios en los Términos: La Fundación podrá actualizar estos términos para responder a nuevos desafíos tecnológicos (como la aparición de nuevas formas de IA), notificando a los usuarios registrados con 30 días de antelación.
+
+15. Fuerza Mayor y Preservación Digital
+En caso de cese de operaciones de la Fundación Raíces Vivas, el código fuente y la base de datos se entregarán a un consorcio de bibliotecas públicas y archivos nacionales bajo una licencia de "Archivo Perpetuo", garantizando que la cultura documentada nunca sea borrada del registro digital de la humanidad.
+
+16. Aceptación Final
+Al presionar el botón de "Explorar Raíces" o descargar cualquier paquete de idiomas, usted declara ser un ser humano y se compromete a tratar esta información con la dignidad y el respeto que las culturas del mundo merecen. Este acuerdo es la base de una relación de confianza entre la tecnología y la tradición.

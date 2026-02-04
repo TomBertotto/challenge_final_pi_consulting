@@ -1,0 +1,124 @@
+OpenLink Driver Suite: Universal Open-Source License
+Version 2.1.0-LTS | Released under the "OpenSource Guard" Protocol
+
+1. The Open-Source Mandate
+The OpenLink Driver (the "Driver"), including all C-headers, firmware blobs, and kernel modules, is provided as Free and Open-Source Software. By downloading, compiling, or injecting this Driver into a kernel, you enter into a binding agreement with the OpenLink Contributor Community.
+
+This License is designed to ensure the Driver remains a "Public Good." Unlike proprietary binary-only drivers, we grant you full transparency into the register-level communication between your CPU and your hardware.
+
+2. Grant of Rights (The "Four Freedoms")
+Subject to the conditions in Section 3, the OpenLink Contributor Community grants you a perpetual, worldwide, no-charge, royalty-free, and irrevocable license to:
+
+Freedom 0: Run the Driver for any purpose (commercial, personal, or industrial).
+
+Freedom 1: Study how the Driver works and change it to make it do your hardware’s bidding.
+
+Freedom 2: Redistribute copies so you can help your neighbor fix their peripheral issues.
+
+Freedom 3: Improve the Driver and release your improvements to the public, so that the whole community benefits.
+
+3. Conditions of Use and Redistribution
+Your rights under this License are strictly contingent upon your adherence to the following:
+
+Attribution: You must retain all copyright notices, "Author" tags, and "Original Work" headers in the source code.
+
+Copyleft Provision (The "Viral" Clause): If you modify the Driver and distribute a derivative binary, you must make the source code of your modifications available under this same license. You cannot take our open-source driver, add a "Secret Feature," and sell it as a proprietary "Pro Version."
+
+No Trademark Use: Use of the "OpenLink" name or logo in your marketing is prohibited without a separate trademark agreement. You may say your product is "Powered by OpenLink," but you cannot call your product "The Official OpenLink Driver."
+
+4. Hardware Safety and "The Brick" Disclaimer
+WARNING: This is a low-level software component.
+
+Kernel Space Risk: Because this Driver operates in "Ring 0" (Kernel Mode), a bug in the code can cause a "Kernel Panic," "Blue Screen of Death (BSOD)," or total system instability.
+
+Physical Damage: Incorrect register writes can result in hardware overheating, voltage spikes, or "bricking" (permanent physical failure) of the connected device.
+
+Risk Assumption: You acknowledge that you are using this Driver at your own risk. The OpenLink Community provides zero physical hardware warranties.
+
+5. Absolute Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE CONTRIBUTORS DISCLAIM ALL WARRANTIES, INCLUDING:
+
+Merchantability: We do not guarantee the Driver is "good enough" to be sold.
+
+Fitness for Purpose: We do not guarantee this Driver will actually make your specific hardware work.
+
+Non-Infringement: We do not guarantee that the way we communicate with the hardware doesn't accidentally infringe on a "Method Patent" held by a hardware manufacturer.
+
+6. Limitation of Liability
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM:
+
+Data Loss: If the Driver crashes your filesystem while writing data.
+
+Production Downtime: If your server farm goes offline because of a driver conflict.
+
+Personal Injury: In the event the Driver is used in medical, nuclear, or aviation equipment (which is strictly discouraged).
+
+7. Patent Grant and Peace Clause
+To protect the ecosystem from "Patent Trolls," this License includes a defensive patent clause:
+
+Automatic License: Every contributor grants you a patent license for any patents they own that are necessarily infringed by their contribution.
+
+Termination on Litigation: If you file a patent lawsuit against any contributor claiming that the Driver infringes your patents, your license to the Driver terminates automatically on the date the lawsuit is filed.
+
+8. Export Control Compliance
+Even though the code is open-source, it is subject to the export laws of various jurisdictions. You agree not to export the Driver or any derivative work to any country subject to international trade sanctions or to any "End-User" involved in the development of weapons of mass destruction.
+
+9. Upstream Contribution and Maintenance
+To ensure the long-term viability of the Driver, the OpenLink Community encourages a "Contribution-First" model. While Section 3 (Copyleft) mandates the disclosure of source code, this Section 9 outlines the voluntary "Upstream" process:
+
+Submission of Patches: By submitting a "Pull Request" or a patch to the official OpenLink repository, you grant the Community a non-exclusive, irrevocable license to incorporate your code into the main branch.
+
+Coding Standards: Contributions must adhere to the documented kernel-coding style. The Community Maintainers reserve the right to reject any code that introduces security vulnerabilities or "Spaghetti Logic" that compromises the Driver's performance.
+
+Bug Reporting: Users are encouraged to report bugs through the official issue tracker. However, the Community is under no legal obligation to provide a "fix" or a timeline for resolution.
+
+10. Handling of Proprietary "Binary Blobs"
+The OpenLink Driver Suite occasionally requires interaction with proprietary firmware or "Binary Blobs" provided by hardware manufacturers.
+
+Non-OSS Components: This License does not cover any proprietary blobs. These are often subject to the manufacturer’s End User License Agreement (EULA).
+
+Wrappers: The OpenLink Driver may act as a "wrapper" for these blobs. You acknowledge that if the manufacturer revokes your right to use their firmware, the OpenLink Driver may become non-functional.
+
+Reverse Engineering: While the OpenLink code is open, this license does not grant you the right to reverse engineer the underlying proprietary firmware blobs unless permitted by the laws of your jurisdiction.
+
+11. Security and Vulnerability Disclosure
+As a low-level system component, security is paramount.
+
+Coordinated Disclosure: If you discover a "Zero-Day" exploit or a privilege escalation vulnerability in the Driver, you agree to notify the OpenLink Security Team privately before public disclosure. This allows the Community to issue a patch and protect the global user base.
+
+No "Backdoor" Guarantee: The Community certifies that it will not knowingly include "backdoors" or surveillance code. Because the source code is public, the ultimate responsibility for security auditing lies with the User.
+
+12. Corporate Usage and Indemnification
+For-profit corporations utilizing the OpenLink Driver in their hardware products or server fleets must understand the limits of community support.
+
+No Indemnity: Unlike "Enterprise-Grade" proprietary software, OpenLink does not provide "Intellectual Property Indemnification." If a third party sues you for patent infringement related to the Driver, the OpenLink Community will not defend you or pay your legal fees.
+
+Commercial Support: Companies requiring a Service Level Agreement (SLA) or a dedicated support contract must enter into a separate agreement with a commercial vendor; this License does not constitute a service contract.
+
+13. Jurisdiction and Governing Law
+In the event of a legal dispute arising from this License, the following rules apply:
+
+Primary Jurisdiction: All disputes shall be governed by the laws of the jurisdiction in which the OpenLink Foundation (the non-profit steward of the project) is incorporated.
+
+Arbitration: The parties agree to attempt to resolve any dispute through good-faith mediation before pursuing litigation in a court of law.
+
+Severability: If any provision of this License is found to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions shall remain in full force and effect.
+
+14. Term and Termination
+Automatic Termination: Your rights under this License terminate automatically if you fail to comply with any of its terms (specifically the Copyleft or Attribution requirements).
+
+Effect of Termination: Upon termination, you must cease all use, distribution, and modification of the Driver.
+
+Survival: Sections 5 (Disclaimer of Warranty), 6 (Limitation of Liability), and 13 (Jurisdiction) shall survive any termination of this License.
+
+15. The "Public Good" Clause
+The OpenLink Driver Suite is intended to prevent "Planned Obsolescence" by allowing older hardware to remain functional on modern operating systems.
+
+Legacy Support: The Community prioritizes the maintenance of drivers for hardware that has been "End-of-Lifed" by its original manufacturer.
+
+Non-Discriminatory Access: This Driver is for everyone—regardless of their field of endeavor, political affiliation, or geographic location.
+
+16. Entire Agreement
+This License constitutes the entire agreement between you and the OpenLink Contributor Community regarding the Driver. No oral or written information or advice given by any contributor or representative shall create a warranty or in any way increase the scope of this License.
+
+Final Note: You are now equipped with the OpenLink Driver. Use it wisely, contribute back to the community, and keep the hardware world open.

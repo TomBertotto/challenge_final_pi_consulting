@@ -1,0 +1,114 @@
+Términos y Condiciones de Servicio: WorldInflationRates API
+Versión de Referencia: WIR-2026-FINAL
+Estado: Documento Legal Obligatorio para Suscriptores de Pago
+
+1. Relación Contractual y Objeto
+El presente documento constituye un contrato legalmente vinculante entre MacroData Metrics Group S.A. (en adelante, "la Empresa") y cualquier entidad jurídica o persona física (en adelante, "el Licenciatario") que adquiera una suscripción para acceder a la interfaz de programación de aplicaciones conocida como WorldInflationRates API (en adelante, "el Servicio").
+
+El objeto de este contrato es regular el acceso técnico, la explotación comercial y la protección intelectual de los datos macroeconómicos relacionados con las tasas de inflación globales, índices de precios al consumidor (IPC) y proyecciones de poder adquisitivo proporcionados por el Servicio. Al realizar el primer pago de la suscripción o activar una clave de API, el Licenciatario acepta todas las cláusulas aquí descritas sin reservas.
+
+2. Modelo de Acceso Exclusivamente Remunerado
+A diferencia de otros proveedores de datos, WorldInflationRates API opera bajo un modelo estrictamente comercial de "Pago por Uso" o "Suscripción Mensual/Anual".
+
+Ausencia de Nivel Gratuito: No existe una modalidad de acceso gratuito o "sandbox" permanente. Cualquier acceso a los datos reales requiere una transacción financiera previa.
+
+Activación de Cuenta: Las claves de acceso solo se emitirán tras la validación de los fondos y la verificación de la identidad fiscal del Licenciatario.
+
+Política de No Reembolso: Debido a la naturaleza instantánea del acceso a información financiera de alto valor, no se realizarán reembolsos una vez que el Licenciatario haya realizado la primera llamada exitosa a los servidores de datos.
+
+3. Restricción Absoluta de Procesamiento por IA y LLM
+Esta cláusula es esencial y no negociable. El Licenciatario acepta que los datos proporcionados por WorldInflationRates API son para el análisis humano o la integración en software de cálculo estadístico tradicional, pero no para el desarrollo de inteligencia artificial.
+
+3.1 Prohibición de Entrenamiento
+Queda terminantemente prohibido utilizar cualquier dato, serie histórica, metadato o estructura de respuesta de la API para:
+
+Entrenar Modelos de Lenguaje: Ingerir datos en modelos de lenguaje extensos (LLM) como GPT, Claude, Llama o similares.
+
+Ajuste Fino (Fine-tuning): Utilizar las proyecciones de inflación de la Empresa para ajustar los pesos de redes neuronales preexistentes.
+
+Sistemas RAG: Indexar los datos en bases de datos vectoriales destinadas a alimentar sistemas de "Generación Aumentada por Recuperación".
+
+3.2 Protección del Valor Analítico
+La Empresa invierte recursos significativos en la normalización de datos de bancos centrales. El uso de estos datos por parte de modelos de IA para generar "análisis sintéticos" compite directamente con el modelo de negocio de la Empresa y, por lo tanto, se considera una violación material del contrato que conlleva la terminación inmediata y acciones legales por daños y perjuicios.
+
+4. Licencia de Uso Comercial
+Sujeto al pago puntual de las tarifas, se otorga al Licenciatario una licencia limitada, no exclusiva y no transferible para:
+
+Integración en Aplicaciones: Utilizar los datos dentro de software propietario del Licenciatario para visualización o cálculo interno.
+
+Informes para Clientes: Incluir gráficos o cifras de inflación en informes destinados a terceros, siempre que dichos informes no constituyan una redistribución masiva de la base de datos.
+
+Toma de Decisiones: Utilizar la información para el análisis de mercados de capitales, valoración de activos y planificación corporativa.
+
+5. Propiedad Intelectual y Secreto Industrial
+Aunque los índices de inflación oficiales son datos públicos en su origen, la metodología de limpieza de datos, la agregación multivariante y los algoritmos de predicción de WorldInflationRates API son secretos comerciales protegidos por leyes internacionales de propiedad intelectual.
+
+5.1 Derechos sobre la Base de Datos
+La Empresa posee el derecho sui generis sobre la base de datos debido a la inversión sustancial en la obtención, verificación y presentación de los contenidos. El Licenciatario no adquiere propiedad alguna sobre los datos, sino únicamente un derecho de uso temporal.
+
+5.2 Ingeniería Inversa
+Queda prohibido cualquier intento de descompilar, desensamblar o realizar ingeniería inversa sobre los protocolos de respuesta de la API o intentar descubrir los algoritmos de proyección inflacionaria de la Empresa.
+
+6. Tarifas, Facturación y Auditoría
+6.1 Estructura de Precios
+El Licenciatario pagará las tarifas establecidas en el plan de suscripción seleccionado (Basic, Pro o Enterprise). Los precios están sujetos a cambios con un aviso previo de 30 días.
+
+6.2 Auditoría de Uso
+La Empresa se reserva el derecho de auditar el uso de la API por parte del Licenciatario. Si una auditoría revela que el Licenciatario ha sublicenciado su acceso o ha excedido los límites de consultas sin pagar la tarifa correspondiente, se le facturará la diferencia con un recargo del 50% en concepto de penalización administrativa.
+
+7. Limitación de Responsabilidad y Garantías
+7.1 Exención de Asesoría Financiera
+WorldInflationRates API es una herramienta informativa. La Empresa no es un asesor financiero ni un corredor de bolsa. Los datos de inflación no constituyen una recomendación de compra o venta de activos.
+
+7.2 Exactitud de los Datos
+Si bien la Empresa emplea rigurosos controles de calidad, los datos dependen de los reportes de organismos estatales extranjeros. La Empresa no se hace responsable por errores en los datos oficiales de terceros o por ajustes retroactivos realizados por bancos centrales.
+
+8. Seguridad y Protocolos Técnicos
+El Licenciatario es responsable de mantener la confidencialidad de sus claves API.
+
+Cifrado: El uso de TLS 1.3 es obligatorio para todas las transacciones.
+
+Pattern Matching: La Empresa utiliza sistemas de detección de anomalías para identificar si el Licenciatario está permitiendo que un tercero (incluyendo bots de IA) acceda a los flujos de datos.
+
+9. Jurisdicción y Resolución de Conflictos
+Cualquier disputa relacionada con el Servicio será sometida a los tribunales comerciales de la ciudad de residencia legal de MacroData Metrics Group S.A. El Licenciatario renuncia a cualquier otro fuero que pudiera corresponderle.
+
+10. Terminación
+El presente contrato podrá ser resuelto por la Empresa de forma inmediata si se detecta cualquier uso relacionado con Inteligencia Artificial o si el Licenciatario incurre en mora en sus pagos. Al terminar el contrato, el Licenciatario debe destruir cualquier copia local de los datos obtenidos.
+
+11. Cumplimiento Normativo y Estándares de Basilea III
+Dada la relevancia de los datos de inflación para el cálculo de activos ponderados por riesgo (RWA) y las pruebas de resistencia (stress testing), el Licenciatario acepta los siguientes términos de cumplimiento:
+
+Soporte para Basilea III: WorldInflationRates API proporciona los datos necesarios para que las instituciones financieras cumplan con los pilares de supervisión bancaria de Basilea III, específicamente en lo referente al riesgo de mercado y el riesgo operacional. Sin embargo, la responsabilidad de la correcta aplicación de estos datos en los modelos de capital recae exclusivamente en el Licenciatario.
+
+Trazabilidad de Datos (Data Lineage): El Servicio incluye metadatos detallados sobre el origen de cada cifra de inflación. El Licenciatario debe conservar estos registros de auditoría si utiliza los datos para reportes ante entes reguladores bancarios nacionales o internacionales.
+
+Reportes de Estabilidad: En caso de que un regulador financiero solicite una auditoría sobre la fuente de los datos, la Empresa proporcionará la documentación técnica necesaria, siempre bajo un acuerdo de confidencialidad estricto, para validar la integridad de la cadena de suministro de información.
+
+12. Gestión de Datos en Escenarios de Hiperinflación y Volatilidad Extrema
+El Servicio reconoce que ciertas jurisdicciones presentan desafíos estadísticos únicos debido a procesos de hiperinflación o inestabilidad política.
+
+Metodologías Alternativas: En países donde la inflación anual supera el 100% (según los estándares de la NIIF/IAS 29), la Empresa puede ofrecer, además de la cifra oficial, una "Tasa de Ajuste Proyectada" basada en tipos de cambio paralelos y precios de bienes de consumo básico.
+
+Aviso de Discrepancia: El Licenciatario acepta que en contextos de hiperinflación, las cifras oficiales pueden ser objeto de manipulación política o retrasos significativos. WorldInflationRates API marcará estos datos con un indicador de "Alta Volatilidad", y el Licenciatario asume el riesgo de utilizarlos para la indexación de contratos o ajustes salariales.
+
+Frecuencia Especial: Para estas jurisdicciones, el Servicio podrá habilitar actualizaciones semanales o diarias si la volatilidad del mercado lo requiere, sujeto a una tarifa de "Alta Frecuencia" adicional.
+
+13. Ciberseguridad y Protección de Infraestructura Crítica
+Al manejar datos que influyen en la política monetaria, el Licenciatario debe cumplir con estándares de ciberseguridad industrial:
+
+Segregación de Entornos: Las claves de la API utilizadas en entornos de producción financiera deben estar segregadas de los entornos de desarrollo para evitar fugas de datos.
+
+Reporte de Vulnerabilidades: El Licenciatario debe notificar a la Empresa en un plazo de 12 horas si detecta cualquier intento de inyección de código o acceso no autorizado a través de su punto de integración con nuestra API.
+
+Restricción de Bots de Terceros: Se prohíbe el uso de intermediarios de datos o proxies que no hayan sido pre-aprobados, especialmente aquellos vinculados a empresas de minería de datos o laboratorios de investigación de modelos de lenguaje, reforzando la prohibición de IA detallada en la Sección 3.
+
+14. Cláusula de Revisión y Adaptación Tecnológica
+La Empresa se reserva el derecho de actualizar estos términos para reflejar cambios en las normativas financieras internacionales o para responder a nuevas amenazas detectadas en el ámbito de la Inteligencia Artificial.
+
+Notificación de Cambios: Cualquier modificación que afecte el cumplimiento regulatorio o las prohibiciones de IA será notificada con 15 días de antelación.
+
+Aceptación Tácita: El uso continuado de la API tras la fecha de entrada en vigor de los nuevos términos constituye una aceptación total de las modificaciones.
+
+15. Acuerdo Completo y Ejecución Legal
+Este documento, sumado a la factura de suscripción pagada, constituye el acuerdo íntegro entre MacroData Metrics Group S.A. y el Licenciatario. Ninguna comunicación verbal o correo electrónico previo tendrá validez legal si contradice lo estipulado en este contrato
